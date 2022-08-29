@@ -62,18 +62,13 @@ class TextScramble {
 
 // lawlessgenomics, taking the next step for life in our galaxy
 const phrases = [
-	'                                       ',
-	'                                       ',
-	// 'ATCACTATGATCCTATGATGAGTCCTACTCTGTACACTG',
-	// 'TCATGAAGCTAGACTTCGCTGCTCGTCAGCTAGCGTCTA',
-	// 'AGCCTCCTAAGTTAGAGCTGATAGCTAGAGAGCGCTTGT',
-	// 'CACAGCATCCTGGCTCTAAGCCTGCTCAGCTGTGATCAC',
-	// 'AGCGTCACTATCACTAGTGACAGCAGCAGCAGCAGCAGC',
-	'Genetic code unites our species',
-	'Genetic code shapes our uniqueness ',
-	'By understanding our genetic code',
-	'we understand human health',
-	'                                       ',
+	'                           ',
+	'                           ',
+	'Discover precision medicine',
+	'Discover open science      ',
+	'Discover precision medicine',
+	// '',
+	'                           ',
 ]
 
 const el = document.querySelector('.text')
