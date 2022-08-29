@@ -1,7 +1,6 @@
 ## This is the data for LawlessGenomics
 [vaudbiotech.com](https://vaudbiotech.com) hosted via [vaudbiotech.github.io](https://vaudbiotech.github.io)
 
-
 Some installs may be required to serve this site locally for testing; 
 e.g. at least requires:
 "gem install jekyll-scholar"
