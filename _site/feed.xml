@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AtraxMantis</title>
+    <description>A home to brutal death metal.</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>EU IVD Regulation</title>
+        <description>&lt;h1 id=&quot;eu-ivd-regulation&quot;&gt;EU IVD Regulation&lt;/h1&gt;
+
+&lt;p class=&quot;meta&quot;&gt;22 Aug 2022&lt;/p&gt;
+
+&lt;p&gt;Questions and Answers on the progressive roll-out of the new In Vitro Diagnostic Medical Devices (IVD) Regulation:
+&lt;a href=&quot;https://ec.europa.eu/commission/presscorner/detail/en/qanda_21_5210&quot;&gt;https://ec.europa.eu/commission/presscorner/detail/en/qanda_21_5210&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;“The &lt;a href=&quot;https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0746-20170505&quot;&gt;In Vitro Diagnostic Medical Device Regulation (IVD Regulation)&lt;/a&gt; entered into force in May 2017 and becomes applicable on 26 May 2022.&lt;/li&gt;
+    &lt;li&gt;“The IVD Regulation seeks to ensure a high level of public health and patient safety taking into account scientific progress, as well as smooth operation of the single market for these products.&lt;/li&gt;
+    &lt;li&gt;“It was adopted together with the &lt;a href=&quot;https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0745-20170505&quot;&gt;Medical Devices Regulation&lt;/a&gt; that is applicable since 26 May 2021.”&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Example of complience by 
+&lt;a href=&quot;https://blueprintgenetics.com/news/blueprint-genetics-a-quality-leader-in-genetic-testing-embraces-new-eu-regulation-ivdr/&quot;&gt;Blueprint Genetics&lt;/a&gt; with In Vitro Diagnostic Regulation (EU) 2017/746 (IVDR).&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Aug 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000//2022/08/18/IVD-Regulation.html</link>
+        <guid isPermaLink="true">http://localhost:4000//2022/08/18/IVD-Regulation.html</guid>
+      </item>
+    
+		
+		
+  </channel>
+</rss>

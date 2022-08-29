@@ -1,0 +1,152 @@
+---
+layout: default
+title: VaudBioTech
+---
+<br>
+
+
+<!-- The hero image sits below the default nav bar -->
+<div class="tagimage">  
+	<div class="sitewidth">
+	
+	<div class="tagline1">
+		<h1 class="tagline-h1">Educate 4 Life</h1>
+	</div>
+
+	<div class="tagline2">
+		<h2 class="tagline-h2">Discovery starts here</h2>
+	</div>
+
+	 <!-- <div class="tagline3"> -->
+	 <!-- 	<div class="glitch"  id="glitch"> -->
+	 <!-- 		<div class="text"></div> -->
+	 <!-- 	</div> -->
+	 <!-- </div> -->
+</div>
+</div>
+
+<!-- glitch script -->
+<script src="script.js" type="text/javascript"></script>
+
+<!-- </div> -->
+<div></div>
+<br>
+
+<div></div>
+
+<div class="button-flex-container">
+
+	<div>	<a href="https://github.com/DylanLawless/drug_dev_reg">
+				<button class="buttonblack">Open source<br/>development</button> 
+			</a> 
+	</div> 
+
+	<div>	<a href="https://lawlessgenomics.com/topic/evidence_finder_gene_all.html">
+				<button class="buttonblack">Technology<br/>overview</button> 
+			</a> 
+	</div> 
+
+	<div>	<a href="https://lawlessgenomics.com/topic/evidence-finder-variant">
+				<button class="buttonblack">Meet the<br/>team</button> 
+			</a> 
+	</div> 
+
+	<div>	<a href="https://lawlessgenomics.com/topic/iuis-iei-table-page">
+				<button class="buttonblack">Clinical<br/>trials</button> 
+			</a> 
+	</div> 
+
+</div>
+<br>
+
+New technologies for personalised medicine.
+Open access processes for regulatory and safety devolopment.
+No cookies?
+<!-- This site is built to be light and fast. -->
+Respecting your data privacy means no ads, no trackers, 
+<a href="https://themarkup.org/blacklight?url=lawlessgenomics.com">&c</a>.
+On the frontier of human health
+<!-- <div class="typing"> -->
+in continuous development.
+<!-- </div> -->
+
+<!-- </div> -->
+<!-- </div> -->
+
+<!-- <!-1- particles.js container -1-> <div id="particles-js"></div> <!-1- stats - count particles -1-> <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> <!-1- particles.js lib - https://github.com/VincentGarreau/particles.js -1-> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-1- stats.js lib -1-> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
+
+<div id="Topics">
+
+	<div class="subjects">
+		<h1>Precision medicine</h1>
+		<ul class="topic">
+		{% assign sorted-topic = site.topic | where: "subject","Precision medicine" %}
+		{% for topic in sorted-topic %}
+		<a href="{{ topic.url }}">{{ topic.title }}</a><br />
+		{% endfor %}
+		<a href="https://lawlessgenomics.com/topic/evidence_builder.html">Evidence builder prototype</a>
+		</ul>
+	</div>
+
+
+	<div class="subjects">
+		<h1>Immunology</h1>
+		<ul class="topic">
+		<a href="https://sarscov2variants.com">SARS-CoV-2 variants of concern & vaccine design</a><br />
+		{% assign sorted-topic = site.topic | where: "subject","immunology" %}
+		{% for topic in sorted-topic %}
+		<a href="{{ topic.url }}">{{ topic.title }}</a><br />
+		{% endfor %}
+		</ul>
+	</div>
+
+
+	<div class="subjects">
+		<h1>Genomics of rare disease</h1>
+		<ul class="topic">
+		{% assign sorted-topic = site.topic | where: "subject","Genomic analysis" %}
+		{% for topic in sorted-topic %}
+		<a href="{{ topic.url }}">{{ topic.title }}</a><br />
+		{% endfor %}
+		<a href="https://lawlessgenomics.com/genetic_ticker/current.html">Current analysis ticker</a>
+		</ul>
+	</div>
+
+
+	<div class="subjects">
+		<h1>Portfolio</h1>
+		<ul class="topic">
+		<a href="/portfolio">Genomic analysis gallery</a>
+		</ul>
+	</div>
+
+	<div class="subjects">
+		<h1>Blog Posts</h1>
+		<ul class="posts">
+		{% for post in site.posts %}
+		{% if post.path contains 'blogpost' %}
+		<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endif %}
+		{% endfor %}
+		</ul>
+	</div>
+
+	<div class="subjects">
+		<h1>Highlighted Media</h1>
+		<ul class="posts">
+			<li><span>22 Aug 2022</span> <a href="https://www.epfl.ch/schools/sv/school-of-life-sciences/innovation/catalyze4life/educate4life/">Educate4Life course in EPFL.</a></li>
+		</ul>
+	</div>
+
+	<!-- <div > -->
+	<!-- 	<a href="/" > -->
+	<!-- 	<img style="margin-bottom:-16px" --> 
+	<!-- 	src="/images/brand_images/grey_tall_human_genomics_wide.png" --> 
+	<!-- 	alt="Logo image" width="100%"/></a> -->
+	<!-- </div> -->
+</div>
+
+<br>
+<div class="button-flex-container">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/h69Nb8aD3no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
