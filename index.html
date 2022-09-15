@@ -104,6 +104,15 @@ Cryo-EM structure of Her2 (cyan) extracellular domain-Trastuzumab (Herceptin - r
 		</ul>
 	</div>
 
+	<div class="subjects">
+		<h1>Intellectual property</h1>
+		<ul class="topic">
+		{% assign sorted-topic = site.topic | where: "subject","IP" %}
+		{% for topic in sorted-topic %}
+		<a href="{{ topic.url }}">{{ topic.title }}</a><br />
+		{% endfor %}
+		</ul>
+	</div>
 
 	<div class="subjects">
 		<h1>Immunology</h1>
