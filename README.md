@@ -157,7 +157,7 @@ Host dylanlawless.github.io
   IdentitiesOnly yes
 
 # vaudbiotech repo
-Host vaudbiotech.github.io
+Host vaudbiotech.github.com
   HostName github.com
   User vaudbiotech
   PreferredAuthentications publickey
