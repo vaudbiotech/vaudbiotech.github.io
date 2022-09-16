@@ -149,7 +149,7 @@ cd ~/.ssh/config
 
 ## set such that Host and User are custom
 # lawlessgenomics repo
-Host dylanlawless.github.com
+Host dylanlawless.github.io
   HostName github.com
   User DylanLawless
   PreferredAuthentications publickey
@@ -157,11 +157,11 @@ Host dylanlawless.github.com
   IdentitiesOnly yes
 
 # vaudbiotech repo
-Host VaudBioTech.github.com
+Host vaudbiotech.github.io
   HostName github.com
-  User sars-cov-2-voc
+  User vaudbiotech
   PreferredAuthentications publickey
-  IdentityFile ~/.ssh/lawless_vaudbiotrech
+  IdentityFile ~/.ssh/key2_rsa
   IdentitiesOnly yes
 
 ```
