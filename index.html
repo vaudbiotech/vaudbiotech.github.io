@@ -72,9 +72,6 @@ On the frontier of human health
 in continuous development.
 <!-- </div> -->
 
-
-
-
 <div class="row">
 	<div class="column">
 	    <img src="/images/pdb/6oge/6oge_cartoon.jpg" alt="Snow" style="width:100%">
@@ -86,21 +83,26 @@ in continuous development.
 
 Cryo-EM structure of Her2 (cyan) extracellular domain-Trastuzumab (Herceptin - red and pink) Fab-Pertuzumab (Perjeta - yellow and orange) Fab complex. Derived from PDB 6OGE
 <a href="https://doi.org/10.1371/journal.pone.0216095">https://doi.org/10.1371/journal.pone.0216095</a>.
-<!-- </div> -->
-<!-- </div> -->
-
-<!-- <!-1- particles.js container -1-> <div id="particles-js"></div> <!-1- stats - count particles -1-> <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> <!-1- particles.js lib - https://github.com/VincentGarreau/particles.js -1-> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-1- stats.js lib -1-> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
 
 <div id="Topics">
+	<!-- <div class="subjects"> -->
+	<!-- 	<h1>Precision medicine</h1> -->
+	<!-- 	<ul class="topic"> -->
+	<!-- 	{% assign sorted-topic = site.topic | where: "subject","Precision medicine" %} -->
+	<!-- 	{% for topic in sorted-topic %} -->
+	<!-- 	<a href="{{ topic.url }}">{{ topic.title }}</a><br /> -->
+	<!-- 	{% endfor %} -->
+	<!-- 	<a href="https://lawlessgenomics.com/topic/evidence_builder.html">Evidence builder prototype</a> -->
+	<!-- 	</ul> -->
+	<!-- </div> -->
 
 	<div class="subjects">
-		<h1>Precision medicine</h1>
+		<h1>Regulations and guidelines</h1>
 		<ul class="topic">
-		{% assign sorted-topic = site.topic | where: "subject","Precision medicine" %}
+		{% assign sorted-topic = site.topic | where: "subject","regulation" %}
 		{% for topic in sorted-topic %}
 		<a href="{{ topic.url }}">{{ topic.title }}</a><br />
 		{% endfor %}
-		<a href="https://lawlessgenomics.com/topic/evidence_builder.html">Evidence builder prototype</a>
 		</ul>
 	</div>
 
@@ -125,25 +127,12 @@ Cryo-EM structure of Her2 (cyan) extracellular domain-Trastuzumab (Herceptin - r
 		</ul>
 	</div>
 
-
-	<div class="subjects">
-		<h1>Genomics of rare disease</h1>
-		<ul class="topic">
-		{% assign sorted-topic = site.topic | where: "subject","Genomic analysis" %}
-		{% for topic in sorted-topic %}
-		<a href="{{ topic.url }}">{{ topic.title }}</a><br />
-		{% endfor %}
-		<a href="https://lawlessgenomics.com/genetic_ticker/current.html">Current analysis ticker</a>
-		</ul>
-	</div>
-
-
-	<div class="subjects">
-		<h1>Portfolio</h1>
-		<ul class="topic">
-		<a href="/portfolio">Genomic analysis gallery</a>
-		</ul>
-	</div>
+	<!-- <div class="subjects"> -->
+	<!-- 	<h1>Portfolio</h1> -->
+	<!-- 	<ul class="topic"> -->
+	<!-- 	<a href="/portfolio">Genomic analysis gallery</a> -->
+	<!-- 	</ul> -->
+	<!-- </div> -->
 
 	<div class="subjects">
 		<h1>Blog Posts</h1>
