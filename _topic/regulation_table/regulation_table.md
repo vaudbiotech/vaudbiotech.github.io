@@ -2,7 +2,7 @@
 layout: topic
 title: Regulations and guidelines
 date: 2022-09-17 00:00:01
-tags: regulation
+tags: development
 status: unfinished
 subject: regulation
 ---

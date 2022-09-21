@@ -43,7 +43,7 @@ title: VaudBioTech
 			</a> 
 	</div> 
 
-	<div>	<a href="https://www.epfl.ch/schools/sv/school-of-life-sciences/innovation/catalyze4life/educate4life/">
+	<div>	<a href="https://vaudbiotech.com/presentation">
 				<button class="buttonblack">Technology<br/>overview</button> 
 			</a> 
 	</div> 
@@ -95,6 +95,26 @@ Cryo-EM structure of Her2 (cyan) extracellular domain-Trastuzumab (Herceptin - r
 	<!-- 	<a href="https://lawlessgenomics.com/topic/evidence_builder.html">Evidence builder prototype</a> -->
 	<!-- 	</ul> -->
 	<!-- </div> -->
+	
+	<div class="subjects">
+		<h1>Development</h1>
+		<ul class="topic">
+		{% assign sorted-topic = site.topic | where: "subject","development" %}
+		{% for topic in sorted-topic %}
+		<a href="{{ topic.url }}">{{ topic.title }}</a><br />
+		{% endfor %}
+		</ul>
+	</div>
+
+	<div class="subjects">
+		<h1>Presentation</h1>
+		<ul class="topic">
+		{% assign sorted-topic = site.topic | where: "subject","presentation" %}
+		{% for topic in sorted-topic %}
+		<a href="{{ topic.url }}">{{ topic.title }}</a><br />
+		{% endfor %}
+		</ul>
+	</div>
 
 	<div class="subjects">
 		<h1>Regulations and guidelines</h1>
@@ -110,17 +130,6 @@ Cryo-EM structure of Her2 (cyan) extracellular domain-Trastuzumab (Herceptin - r
 		<h1>Intellectual property</h1>
 		<ul class="topic">
 		{% assign sorted-topic = site.topic | where: "subject","IP" %}
-		{% for topic in sorted-topic %}
-		<a href="{{ topic.url }}">{{ topic.title }}</a><br />
-		{% endfor %}
-		</ul>
-	</div>
-
-	<div class="subjects">
-		<h1>Immunology</h1>
-		<ul class="topic">
-		<a href="https://sarscov2variants.com">SARS-CoV-2 variants of concern & vaccine design</a><br />
-		{% assign sorted-topic = site.topic | where: "subject","immunology" %}
 		{% for topic in sorted-topic %}
 		<a href="{{ topic.url }}">{{ topic.title }}</a><br />
 		{% endfor %}

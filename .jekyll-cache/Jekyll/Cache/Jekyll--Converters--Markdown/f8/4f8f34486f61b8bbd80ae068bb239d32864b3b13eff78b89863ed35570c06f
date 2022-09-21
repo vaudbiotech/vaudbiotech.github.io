@@ -1,0 +1,164 @@
+I"�Q<h1 id="development-plan">Development plan</h1>
+
+<ul id="markdown-toc">
+  <li><a href="#introduction" id="markdown-toc-introduction"><strong>Introduction</strong></a></li>
+  <li><a href="#part-a-preclinical-plan" id="markdown-toc-part-a-preclinical-plan"><strong>Part A: Preclinical Plan</strong></a></li>
+  <li><a href="#part-b-clinical-plan" id="markdown-toc-part-b-clinical-plan"><strong>Part B: Clinical Plan</strong></a></li>
+  <li><a href="#part-c-chemistry-manufacturing-and-controls-cmc" id="markdown-toc-part-c-chemistry-manufacturing-and-controls-cmc"><strong>Part C: Chemistry, Manufacturing and Controls, CMC</strong></a></li>
+  <li><a href="#part-d-pre-ind-meeting--scientific-advice" id="markdown-toc-part-d-pre-ind-meeting--scientific-advice"><strong>Part D: Pre-IND Meeting / Scientific Advice</strong></a></li>
+  <li><a href="#part-e-inspection-readiness" id="markdown-toc-part-e-inspection-readiness"><strong>Part E: Inspection Readiness</strong></a></li>
+  <li><a href="#overall-strategy" id="markdown-toc-overall-strategy"><strong>Overall strategy</strong></a></li>
+  <li><a href="#advice-to-management" id="markdown-toc-advice-to-management"><strong>Advice to Management</strong></a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion"><strong>Conclusion</strong></a></li>
+</ul>
+
+<p><strong>Product description and development plan summary for phase 1 clinical trial.</strong></p>
+
+<h1 id="product-description">Product description</h1>
+<p>Product Profile – Our product is a monoclonal antibody to be used in a phase 1 clinical trial in oncology. The company is named VaudBioTech with headquarters located in Switzerland. This company is the discoverer of the product in question. The planned phase 1 clinical trial will be conducted in Germany.</p>
+
+<p><strong>Group:</strong> C</p>
+
+<!-- **Group members:** Priya Bhutada, Mouna Hadiji, Raluca Lidia Ganea, Dylan Lawless, Olivia-Augustina Colbea. -->
+
+<p><strong>Company:</strong> VaudBioTech</p>
+
+<p><strong>Product name</strong>: Hertumig.</p>
+
+<p><strong>Treatment</strong>: Treatment of HER2 receptor positive breast cancer.</p>
+
+<p><strong>Delivery</strong>: Subcutaneous administration.</p>
+
+<p><strong>Mechanism/target</strong>: Similar to the mode of action from Pertuzumab and Herceptin (as illustrated in <strong>Figure 1</strong>), Hertumig targets a newly defined antigen of HER2 which inhibits the  <a href="https://en.wikipedia.org/wiki/Protein_dimer">dimerization</a> with other HER receptors, thereby preventing  <a href="https://en.wikipedia.org/wiki/HER2/neu#Signal_transduction">signalling</a>  in ways that promote cell growth and proliferation. HER2 positive breast cancer is caused by ERBB2 gene amplification that results in overexpression of HER2 in approximately 15-30% of breast cancer tumors. Stimulates cell proliferation and cell growth. It is a bispecific monoclonal antibody (BsMAb) which targets two epitopes.</p>
+
+<p><strong>Discussion</strong>: This drug is reminiscent of the classical mAb anticancer treatments; (i) similar to <a href="https://en.wikipedia.org/wiki/Pertuzumab">Pertuzumab</a> (RG6264, Perjeta) from <a href="https://en.wikipedia.org/wiki/Genentech">Genentech</a> which was first approved in 2012, Europe in 2013, etc. (ii) similar to <a href="https://en.wikipedia.org/wiki/Trastuzumab">Trastuzumab</a>, Herceptin from Genentech very well known, approval US 1998, EU 2000, WHO essential medicine.</p>
+
+<p>![Map</p>
+
+<p>Description automatically generated](Aspose.Words.853d4066-e00c-48fd-9e37-2b604f59480b.001.jpeg)</p>
+
+<p><strong>Figure 1</strong>. Cryo-EM structure of HER2 (cyan) extracellular domain, Trastuzumab Fab (Herceptin - red and pink), and Pertuzumab Fab complex (Perjeta - yellow and orange). Derived from PDB 6OGE <a href="https://doi.org/10.1371/journal.pone.0216095">https://doi.org/10.1371/journal.pone.0216095</a>.</p>
+
+<h1 id="drug-development-summary">Drug development summary</h1>
+<p>The drug development plan will be completed based on our template: Case_study_group_C_template.docx.</p>
+
+<p>The source documentation is summarized in the following sections.</p>
+
+<h2 id="introduction"><strong>Introduction</strong></h2>
+<p>Monoclonal antibodies (mAb) are well established as cancer therapies. As early as 1890, the neutralizing effect on diphtheria was known [1]. In 1980, human trials of mAb therapy for the treatment of lymphoma were as performed and with the advent of antibody humanization later that decade, this treatment strategy became a powerful tool for precision medicine [1].</p>
+
+<p>The advent and rise of mAb is a triumph for clinical medicine. Since the beginning of their modern understanding, the applications for mAb have been recognisedrecognized; “a 1975 Nature paper reported how cell lines could be made that produce an antibody of known specificity” [2]. While these early days of antibody production - relying on hybridoma technology - were challenging, today mAb are often produced by by isolation or transformation of Ab-producing cells taken directly from immunized animals or humans. The immunoglobulin genes responsible for the Ab of interest are subsequently transplanted into cell lines [2].</p>
+
+<p>Recently (2021), the FDA approved the 100th mAb product [3]. The timeline starts inat 1986 with the majority of products consisting of canonical antibodies, and a small number of alternative constructs including antibody–drug conjugates, bispecific Abs, fragment Abs, and others. While a high potential exists, the hurdles for biological drug approvals limit the number of products available thus far. “Just ten targets… account for 42% of the approvals to date”: PD1/PDL1, CD20, TNF, HER2, CGRP/CGRPR, VEGF/VEGFR, IL-6/IL-6R, IL-23 p19, EGFR, and CD19 [3].</p>
+
+<p>The pharmacokinetics (PK) of monoclonal antibodies is generally well understood. The major drug disposition processes relevant for mAbs can be estimated in preclinical development. The product-specific and patient-specific factors that can affect PK behavior can be considered for successful clinical therapy [4].</p>
+
+<p>Each particular mAb has unique risks. The steps to identify and minimize potential adverse effects must be clear and accurate. preclinical and clinical protocols must be established to avoid infusion reactions [5]. Preclinical validation of in vitro safety using human tissues is necessary to predict potential outcome for administration to humans. For clinical trial volunteer safety, communication must be maintained between scientists and clinicians both in phama/biotech companies and those performing clinical studies [5].</p>
+
+<p>The serious risks of off-target antigen binding are well-known, particularly after the adverse outcome seen during the phase 1 trial of anti-CD28 mAb TGN1412 resulting in systemic inflammatory response in all six volunteers [6].</p>
+
+<p>Despite the known potential for first-in-human studies there is no current robust way to ensure complete safety. Therefore, adherence to guidance and regulatory protocols are vital for safe and successful trials.</p>
+
+<p>mAb are recognized as versatile platforms for cancer immunotherapy by directly stimulating or inhibiting immunological protein pathways [7]. The induction of antitumor immune responses can be exploited to develop new cancer treatment strategies based on tumor-specific response of natural or engineered mAb [7].</p>
+
+<p>The nomenclature for our drug is defined according to the WHO International Nonproprietary Names (INN) (Programme and Classification of Medical Product) [8]. The current state of the art in anti-cancer monoclonal antibodies (mAbs) is overviewed by <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5319201/">Chiavernna, et al</a>. [9]. 
+##</p>
+<h2 id="part-a-preclinical-plan"><strong>Part A: Preclinical Plan</strong></h2>
+<p>A preclinical plan will be completed summarizing the work that needs to be done and included in the application for the above mentioned Investigational Medicinal Product. This consistesconsists of a short description of the preclinical studies to cover the clinical trial, namely the animal studies, the duration of treatment, pharmacology and toxicology studies in the appropriate appropraire animal model.</p>
+
+<p>Guidance documents used in this plan include:</p>
+
+<ul>
+  <li><a href="https://journal.emwa.org/preclinical-studies/an-introduction-to-little-known-aspects-of-nonclinical-regulatory-writing/">An introduction to little-known aspects of nonclinical regulatory writing</a>; Nürnberg and Pierre [10].</li>
+  <li>European Comission: <strong><em>EudraLex Volume 10 clinical trials guidelines</em></strong> (<a href="https://ec.europa.eu/health/documents/eudralex/vol-10_en">https://ec.europa.eu/health/documents/eudralex/vol-10_en</a>) [11].</li>
+  <li>European Comission: <strong><em>EudraLex Volume 10 clinical trials guidelines</em></strong>: <strong><em>Guidance documents containing the common provisions on the conduct of GCP inspections by competent authorities of the different member states; To guidance for the conduct of good clinical practice inspections 2008</em></strong>. (see chapter 4 <a href="https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-10_en">https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-10_en</a>) [11].</li>
+  <li>EMA committee for medicinal products for human use (chmp): <strong><em>Guideline on the requirements to the chemical and pharmaceutical quality documentation concerning investigational medicinal products in clinical trials</em></strong> (<a href="https://health.ec.europa.eu/system/files/2016-11/18540104en_en_0.pdf">https://health.ec.europa.eu/system/files/2016-11/18540104en_en_0.pdf</a>).</li>
+  <li>ICH harmonised tripartite guideline<em>: <strong>Guidance on nonclinical safety studies for the conduct of human clinical trials and marketing authorization for pharmaceuticals M3(R2) version step 4 2009</strong></em> (<a href="https://database.ich.org/sites/default/files/M3_R2__Guideline.pdf">https://database.ich.org/sites/default/files/M3_R2__Guideline.pdf</a>) [12].</li>
+  <li>ICH harmonised tripartite guideline: (<a href="https://www.ich.org/page/safety-guidelines">https://www.ich.org/page/safety-guidelines</a>), specifically section <strong><em>S9 Nonclinical evaluation for anticancer pharmaceuticals version step 4 2009</em></strong> (<a href="">https://database.ich.org/sites/default/files/S9_Guideline.pdf</a>) [13].</li>
+  <li>ICH harmonised guideline: <strong><em>Integrated addendum to ICH e6(r1): guideline for good clinical practice</em></strong> <strong><em>E6(r2)step 4 version 2016</em></strong> (<a href="">https://database.ich.org/sites/default/files/E6_R2_Addendum.pdf</a>) [14].</li>
+  <li>EMA Committee for medicinal products for human use (chmp): <strong><em>Guideline on the requirements to the chemical and pharmaceutical quality documentation concerning investigational medicinal products in clinical trials 2022</em></strong></li>
+  <li>(<a href="https://www.ema.europa.eu/en/requirements-chemical-pharmaceutical-quality-documentation-concerning-investigational-medicinal">https://www.ema.europa.eu/en/requirements-chemical-pharmaceutical-quality-documentation-concerning-investigational-medicinal</a>) [15].</li>
+</ul>
+
+<h2 id="part-b-clinical-plan"><strong>Part B: Clinical Plan</strong></h2>
+<ul>
+  <li>Clinical Trial Protocol will be drafted for inclusion in the application for the above-mentioned Investigational Medicinal Product. In this we define the main points of the clinical trial protocol and consider a master protocol. <em><a href="http://www.nature.com/news/master-protocol-aims-to-revamp-cancer-trials-1.13176">Ledford 2013</a></em> reports on “‘Master protocol’ aims to revamp cancer trials” [16] and <a href="http://www.nejm.org/doi/full/10.1056/NEJMra1510062#t=article">Woodcock and LaVange 2017</a> on requirements to “Master Protocols to Study Multiple Therapies, Multiple Diseases, or Both” [17]. Consider <em><a href="https://www.ema.europa.eu/en/human-regulatory/research-development/prime-priority-medicines">PRIME</a></em> and <em><a href="https://www.fda.gov/regulatory-information/food-and-drug-administration-safety-and-innovation-act-fdasia/fact-sheet-breakthrough-therapies">Breakthrough Designations*</a></em> (for comparison see FAQ 24. <a href="https://www.fda.gov/regulatory-information/food-and-drug-administration-safety-and-innovation-act-fdasia/frequently-asked-questions-breakthrough-therapies">here</a>).</li>
+  <li>Guidance and reference is found in the ICH harmonised guideline: <strong><em>Integrated addendum to ICH e6(r1): guideline for good clinical practice</em></strong> <strong><em>E6(r2)step 4 version 2016</em></strong> (<a href="https://database.ich.org/sites/default/files/E6_R2_Addendum.pdf">https://database.ich.org/sites/default/files/E6_R2_Addendum.pdf</a>) [14].</li>
+</ul>
+
+<h2 id="part-c-chemistry-manufacturing-and-controls-cmc"><strong>Part C: Chemistry, Manufacturing and Controls, CMC</strong></h2>
+<p>Here we will write a clear CMC plan on the work that needs to be done and included in the application for the above mentioned Investigational Medicinal Product. Emphasize the level of detail required.</p>
+
+<p>Guidance and reference can be found at</p>
+
+<ul>
+  <li>European Commission: <strong><em>EudraLex Volume 10 clinical trials guidelines</em></strong> (<a href="https://ec.europa.eu/health/documents/eudralex/vol-10_en">https://ec.europa.eu/health/documents/eudralex/vol-10_en</a>) [11].</li>
+  <li>European Commission <strong><em>EudraLex Volume 10 clinical trials guidelines</em></strong>: <strong><em>Guidance documents containing the common provisions on the conduct of GCP inspections by competent authorities of the different member states; To guidance for the conduct of good clinical practice inspections 2008</em></strong>. (see chapter 4 <a href="https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-10_en">https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-10_en</a> or PDF <a href="https://health.ec.europa.eu/system/files/2016-11/18540104en_en_0.pdf">https://health.ec.europa.eu/system/files/2016-11/18540104en_en_0.pdf</a>) [11].</li>
+</ul>
+
+<h2 id="part-d-pre-ind-meeting--scientific-advice"><strong>Part D: Pre-IND Meeting / Scientific Advice</strong></h2>
+<p>Here we will include a summary of the project background, the questions with the opinion of the company, number of attendees, and the time for the meeting (ideally).</p>
+
+<p>Advice can be found at</p>
+
+<ul>
+  <li>Paul-Ehrlich-Institute, Federal Institute for Vaccines and Biomedicines webpage (<a href="https://www.pei.de/EN/information/license-applicants/advice/scientific-advice/scientific-advice-node.html">https://www.pei.de/EN/information/license-applicants/advice/scientific-advice/scientific-advice-node.html</a>).</li>
+  <li>EMA Human Regulatory webpage for Scientific advice and protocol assistance (<a href="https://www.ema.europa.eu/en/human-regulatory/research-development/scientific-advice-protocol-assistance">https://www.ema.europa.eu/en/human-regulatory/research-development/scientific-advice-protocol-assistance</a>).</li>
+</ul>
+
+<h2 id="part-e-inspection-readiness"><strong>Part E: Inspection Readiness</strong></h2>
+<p>Here we will write a summary of the work that a company needs to have ready before the inspection to ensure compliance to GxP. Extract some details from the Week 3 presentation. Important is to know the points the inspector normally go through during an inspection.</p>
+
+<p>Guidance can be found at</p>
+
+<ul>
+  <li>European Commission <strong><em>EudraLex Volume 10 clinical trials guidelines</em></strong>: <strong><em>Guidance documents containing the common provisions on the conduct of GCP inspections by competent authorities of the different member states; To guidance for the conduct of good clinical practice inspections 2008</em></strong>. (see chapter 4 <a href="https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-10_en">https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-10_en</a>) [11].</li>
+  <li>European Commission: Guidance documents containing the common provisions on the conduct of GCP inspections by competent authorities of the different member states. <strong><em>Guidance for the conduct of good clinical practice inspections</em></strong> (<a href="https://ec.europa.eu/health/sites/health/files/files/eudralex/vol-10/2008_11/vpl10_an5_10-2008_en.pdf">https://ec.europa.eu/health/sites/health/files/files/eudralex/vol-10/2008_11/vpl10_an5_10-2008_en.pdf</a>).</li>
+</ul>
+
+<h2 id="overall-strategy"><strong>Overall strategy</strong></h2>
+<p>Hints – With the above plans on the domains of preclinical, clinical and CMC, how would you accelerate submission process in Germany, with minimum questions from the health authorities and EC/IRB, and obtain rapid HA and EC/IRB approvals?</p>
+
+<h2 id="advice-to-management"><strong>Advice to Management</strong></h2>
+<p>Hints – A short cover letter to the management on the Development Plan.</p>
+
+<h2 id="conclusion"><strong>Conclusion</strong></h2>
+<p>Hints – A very short (two paragraphs) on why you think the regulatory strategy is well thought through and has the maximum chance of success.</p>
+
+<h1 id="references">References</h1>
+
+<p>[1]	D. Zahavi and L. Weiner, “Monoclonal antibodies in cancer therapy,” <em>Antibodies</em>, vol. 9, no. 3, p. 34, 2020.</p>
+
+<p>[2]	K. Rajewsky, <em>The advent and rise of monoclonal antibodies</em>. Nature Publishing Group, 2019.</p>
+
+<p>[3]	A. Mullard, “FDA approves 100th monoclonal antibody product.,” <em>Nature reviews. Drug discovery</em>, 2021.</p>
+
+<p>[4]	J. T. Ryman and B. Meibohm, “Pharmacokinetics of monoclonal antibodies,” <em>CPT: pharmacometrics &amp; systems pharmacology</em>, vol. 6, no. 9, pp. 576–588, 2017.</p>
+
+<p>[5]	T. T. Hansel, H. Kropshofer, T. Singer, J. A. Mitchell, and A. J. George, “The safety and side effects of monoclonal antibodies,” <em>Nature reviews Drug discovery</em>, vol. 9, no. 4, pp. 325–338, 2010.</p>
+
+<p>[6]	G. Suntharalingam <em>et al.</em>, “Cytokine storm in a phase 1 trial of the anti-CD28 monoclonal antibody TGN1412.,” <em>N Engl J Med</em>, vol. 355, no. 10, pp. 1018–1028, Sep. 2006, doi: 10.1056/NEJMoa063842.</p>
+
+<p>[7]	L. M. Weiner, R. Surana, and S. Wang, “Monoclonal antibodies: versatile platforms for cancer immunotherapy,” <em>Nature Reviews Immunology</em>, vol. 10, no. 5, pp. 317–327, 2010.</p>
+
+<p>[8]	R. Balocco, S. D. S. G. Koch, R. Thorpe, K. Weisser, and S. Malan, “New INN nomenclature for monoclonal antibodies,” <em>The Lancet</em>, vol. 399, no. 10319, p. 24, 2022.</p>
+
+<p>[9]	S. M. Chiavenna, J. P. Jaworski, and A. Vendrell, “State of the art in anti-cancer mAbs.,” <em>J Biomed Sci</em>, vol. 24, no. 1, p. 15, Feb. 2017, doi: 10.1186/s12929-016-0311-y.</p>
+
+<p>[10]	A. Nürnberg and H. Pierre, “An introduction to little-known aspects of nonclinical regulatory writing,” <em>Medical Writing</em>, vol. 26, pp. 9–19, 2017.</p>
+
+<p>[11]	“EudraLex Volume 10 Clinical trials guidelines.” 2014. [Online]. Available: https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-10_en</p>
+
+<p>[12]	I. C. H. Guideline, “ICH: Guidance on nonclinical safety studies for the conduct of human clinical trials and marketing authorization for pharmaceuticals M3 (R2). Version step 4 2009.,” 2009. [Online]. Available: https://database.ich.org/sites/default/files/M3_R2__Guideline.pdf</p>
+
+<p>[13]	I. C. H. Guideline, “ICH: S9 Nonclinical evaluation for anticancer pharmaceuticals. Guidance on nonclinical safety studies for the conduct of human clinical trials and marketing authorization for pharmaceuticals M3 (R2). Version step 4 2009.,” 2009. [Online]. Available: https://database.ich.org/sites/default/files/S9_Guideline.pdf</p>
+
+<p>[14]	I. C. H. Guideline, “ICH: E6(R2) Good Clinical Practice (GCP). ICH Efficacy Guidelines.,” 2016. [Online]. Available: https://database.ich.org/sites/default/files/E6_R2_Addendum.pdf</p>
+
+<p>[15]	“EMA: Guideline on the requirements to the chemical and pharmaceutical quality documentation concerning investigational medicinal products in clinical trials.” [Online]. Available: https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-requirements-chemical-pharmaceutical-quality-documentation-concerning-investigational_en-1.pdf</p>
+
+<p>[16]	H. Ledford, “‘Master protocol’ aims to revamp cancer trials.,” <em>Nature</em>, vol. 498, no. 7453, pp. 146–147, Jun. 2013, doi: 10.1038/498146a.</p>
+
+<p>[17]	J. Woodcock and L. M. LaVange, “Master Protocols to Study Multiple Therapies, Multiple Diseases, or Both.,” <em>N Engl J Med</em>, vol. 377, no. 1, pp. 62–70, Jul. 2017, doi: 10.1056/NEJMra1510062.</p>
+
+:ET
