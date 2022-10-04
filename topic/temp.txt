@@ -1,0 +1,3 @@
+
+<!-- <img src="{% include_relative sophia_patents/output/sophiagenetics_patents.png %}" width="100%"> }}" -->
+<!-- <img src="{{ site.baseurl }}{% link _topic/business/patent_analysis/sophia_patents/output/sophiagenetics_patents.png %}" width="100%"> }}" -->
