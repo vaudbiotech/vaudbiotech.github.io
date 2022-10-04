@@ -1,0 +1,31 @@
+<!-- --- -->
+<!-- layout: topic -->
+<!-- title: Patent analysis -->
+<!-- date: 2022-09-30 00:00:01 -->
+<!-- tags: genomics -->
+<!-- subject: business -->
+<!-- --- -->
+<!-- <p class="meta">13 Feb 2019</p> -->
+
+<!-- * TOC -->
+<!-- {:toc} -->
+
+<!-- test -->
+
+<!-- <br> -->
+<!-- <div class="full-width"> -->
+<!-- <h1>Patent analysis</h1> -->
+<!-- <p> Test -->
+<!-- </p> -->
+
+<!-- <h2> Full table</h2> -->
+
+<!-- <!-1- <img src="{% include_relative sophia_patents/output/sophiagenetics_patents.png %}" width="100%"> }}" -1-> -->
+
+<!-- <h2> Summary of documents used</h2> -->
+<!-- {% include_relative sophia_patents/output/patent_history_sophiagenetics.html %} -->
+
+<!-- <!-1- <h2> Summary of work sharing</h2> -1-> -->
+<!-- <!-1- <p>Click to expand in new tab</p> -1-> -->
+<!-- <!-1- <img src="{{ site.baseurl }}{% link _topic/regulation_table/output/development_plan.jpg %}" width="30%" -1-> --> 
+<!-- <!-1- onclick="window.open('{{ site.baseurl }}{% link _topic/regulation_table/output/development_plan.jpg %}', '_blank');" /> -1-> -->
