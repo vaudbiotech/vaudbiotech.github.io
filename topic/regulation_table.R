@@ -41,7 +41,8 @@ df_t <-
 				   
 				  columns = list(
 				  "Part" = colDef(minWidth = 200),  # overrides the default
-				  "Section_details" = colDef(minWidth = 260),  # overrides the default
+				  "Section_name" = colDef(minWidth = 260),  # overrides the default
+				  "document_title" = colDef(minWidth = 500),  # overrides the default
 				  'link' = colDef(minWidth = 500,
 				  				  cell = function(link) {
 				  	htmltools::tags$a(href = as.character(link), target = "_blank", as.character(link))
