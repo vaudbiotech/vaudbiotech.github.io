@@ -1,8 +1,8 @@
 ---
 layout: topic
 permalink: "/presentation"
-title: mAb for the treatment of cancer
-date: 2022-08-21 00:00:01
+title: VaudBiotech regulatory presentation
+date: 2022-11-10 00:00:01
 tags: genomics
 subject: presentation
 ---
@@ -19,7 +19,7 @@ width="960" height="569"
 </style>
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT890LBIiy39XOIYvEbJeTSdjePFGgaT00R5eDgnQaEvR-YdRHcZYEhOebdBkVMCg/embed?start=false&loop=false&delayms=3000" frameborder="0"  width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vScJNbS3EujB2yRITlgCHUi2K4gGFjpaVFomgCUb0JF1KQWNzZBpzGceHjHirkArg/embed?start=false&loop=false&delayms=3000" frameborder="0"  width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
 
