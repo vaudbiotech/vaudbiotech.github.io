@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<!-- link to MathJax for LaTeX stlye eqn -->
+	 <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+	 
+	 <!-- https://realfavicongenerator.net -->
+	 <link rel="apple-touch-icon" sizes="180x180" href="/images/logos/favicon_package_v0.16_bw/apple-touch-icon.png">
+	 <link rel="icon" type="image/png" sizes="32x32" href="/images/logos/favicon_package_v0.16_bw/favicon-32x32.png">
+	 <link rel="icon" type="image/png" sizes="16x16" href="/images/logos/favicon_package_v0.16_bw/favicon-16x16.png">
+	 <link rel="manifest" href="/images/logos/favicon_package_v0.16_bw/site.webmanifest">
+	 <meta name="msapplication-TileColor" content="#da532c">
+	 <meta name="theme-color" content="#ffffff">
+	
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description"
+content="A home for topics in human precision medicine, genomic analysis, and data visualisation.">
+	<title>Product development report</title>
+	<meta name="author" content="VuadBioTech" />
+	<link href='https://vaudbiotech.com/feed.xml' rel='alternate' title="VaudBioTech" type='application/atom+xml'>
+	<!-- <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/> -->
+	
+	<!-- include a google font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab:300|Roboto:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	
+	<!-- syntax highlighting CSS -->
+	<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+	
+	<!-- Homepage CSS -->
+	<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+	
+	<!-- Google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+	
+	<!-- Typekit -->
+	<script type="text/javascript" src="https://use.typekit.com/jpd0pfm.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+	var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<!-- Logo and navigation bar -->
+
+
+
+<!-- SITE START --------------------------------------------------------- -->
+<div class="site">
+
+<!-- NAV START --------------------------------------------------------- -->
+<div class="sitewidthnav">
+	<div class="title">
+		<div class="nav-container">
+			<nav>
+
+			<div class="logoimage">
+				<a href="/">
+				<img style="margin-bottom:-16px" 
+				src="/images/logo/vaud_ch_logo.png" 
+				alt="Logo image" width="38.5" height="38.5" /></a>
+				<!-- alt="Logo image" width="25" height="38.5" /></a> -->
+			</div>
+
+			<div class="logo">
+				<a href="/">VaudBioTech</a>
+			</div>
+
+				<input type="checkbox" id="nav-toggle">
+					<label for="nav-toggle" class="gg-menu"></label>
+					<div class="right-menu">
+						<a href="/about">About</a>
+						<a href="/">Home</a>
+					</div>
+			</nav>
+		</div>
+	</div>
+
+
+
+</div>
+<!-- NAV END ----------------------------------------------------------- -->
+
+<!-- MAIN START -------------------------------------------------------- -->
+<div class="sitewidth">
+	<div id="topic">
+<!-- Reading time  39 minutes -->
+<!-- I don't need reading time for vaudbiotech. If turing on, keep both lines above and below this comment. -->
+<h1 id="product-development-report">Product development report</h1>
+
+<ul id="markdown-toc">
+  <li><a href="#product-details" id="markdown-toc-product-details">Product details</a></li>
+  <li><a href="#preclinical-and-clinical-trials-overview" id="markdown-toc-preclinical-and-clinical-trials-overview">Preclinical and clinical trials overview</a></li>
+  <li><a href="#section-detail-acute-toxicity" id="markdown-toc-section-detail-acute-toxicity">Section detail: Acute toxicity</a></li>
+  <li><a href="#section-detail-dosage" id="markdown-toc-section-detail-dosage">Section detail: Dosage</a></li>
+  <li><a href="#section-detail-trial-design" id="markdown-toc-section-detail-trial-design">Section detail: Trial design</a></li>
+  <li><a href="#section-detail-dosage-1" id="markdown-toc-section-detail-dosage-1">Section detail: Dosage</a></li>
+  <li><a href="#description-of-manufacturing-process-and-process-controls" id="markdown-toc-description-of-manufacturing-process-and-process-controls">Description of Manufacturing Process and Process Controls</a></li>
+  <li><a href="#design-spaces" id="markdown-toc-design-spaces">Design spaces</a></li>
+  <li><a href="#process-risk-assessment" id="markdown-toc-process-risk-assessment">Process Risk Assessment</a></li>
+  <li><a href="#specifications" id="markdown-toc-specifications">Specifications</a></li>
+  <li><a href="#control-strategy" id="markdown-toc-control-strategy">Control strategy</a></li>
+  <li><a href="#regulatory-filing-and-process-monitoring" id="markdown-toc-regulatory-filing-and-process-monitoring">Regulatory Filing and Process Monitoring</a></li>
+  <li><a href="#ema-scientific-advice-overview" id="markdown-toc-ema-scientific-advice-overview">EMA Scientific Advice overview</a></li>
+  <li><a href="#parallel-scientific-advice" id="markdown-toc-parallel-scientific-advice">Parallel scientific advice</a></li>
+  <li><a href="#application-timetable" id="markdown-toc-application-timetable">Application timetable</a></li>
+  <li><a href="#section-detail-dose-response-studies" id="markdown-toc-section-detail-dose-response-studies">Section detail: Dose response studies</a></li>
+  <li><a href="#section-detail-non-clinical-aspects" id="markdown-toc-section-detail-non-clinical-aspects">Section detail: Non-clinical aspects</a></li>
+</ul>
+
+<h1 id="individual-case-study-report">Individual Case Study Report</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dylan Lawless
+
+Hertumig
+
+Hertumig for injection
+
+440 mg Hertumig/vial
+
+Sterile powder for intravenous infusion only
+
+Pharmaceutical standard professed
+
+Antineoplastic
+
+VaudBiotech
+
+Swiss Federal Institute of Technology Lausanne (EPFL)
+
+Station 19
+
+CH-1015 Lausanne
+
+https://vaudbiotech.com
+
+Date of review: 2022-10-15
+
+Hertumig® is a registered trade-mark of VaudBiotech SA.
+
+Copyright 2022
+</code></pre></div></div>
+
+<h1 id="table-of-tables">Table of tables</h1>
+
+<p><a href="#_Toc116750520">Table 1Overall Summary of Nonclinical Acute Toxicity Studies with Hertumig 9</a></p>
+
+<p><a href="#_Toc116750521">Table 2 Overall Summary of Planned Clinical Studies with Hertumig 12</a></p>
+
+<p><a href="#_Toc116750522">Table 3 Quality attributes and methods used to evaluate Hertumic production 13</a></p>
+
+<p><a href="#_Toc116750523">Table 4 2023 Submission deadlines - Scientific advice, protocol assistance, qualification of biomarkers 17</a></p>
+
+<h1 id="table-of-figures">Table of figures</h1>
+
+<p><a href="#_Toc116750515">Figure 1 Cryo-EM structure of HER2 bound by mAb 6</a></p>
+
+<p><a href="#_Toc116750516">Figure 2 Nonclinical evaluation for small molecules. 8</a></p>
+
+<p><a href="#_Toc116750517">Figure 3 Example design space 14</a></p>
+
+<p><a href="#_Toc116750518">Figure 4 Control strategy risk assessment for mAb 15</a></p>
+
+<p><a href="#_Toc116750519">Figure 5 Scientific Advice and Protocol Assistance procedurefrom EMA 16</a></p>
+
+<h1 id="abbreviations">Abbreviations</h1>
+
+<p>AC, anthracycline-cyclophosphamide;</p>
+
+<p>CHMP, Committee for Medicinal Products for Human Use;</p>
+
+<p>CTD, common technical document;</p>
+
+<p>EGFR, epidermal growth factor receptor;</p>
+
+<p>EMA, European Medicines Agency;</p>
+
+<p>FDA, Food and drug administration;</p>
+
+<p>FIH, first in human;</p>
+
+<p>FMECA, failure modes effects and criticality analysis;</p>
+
+<p>GCP Good clinical practice;</p>
+
+<p>GLP Good laboratory practice;</p>
+
+<p>GMP, Good manufacturing practice;</p>
+
+<p>HER, human epidermal growth factor receptor;</p>
+
+<p>IV, Intravenous;</p>
+
+<p>IR, inspection readiness;</p>
+
+<p>MABEL, minimal anticipated biological-effective level;</p>
+
+<p>MAPK, mitogen-activated protein kinase;</p>
+
+<p>MED, minimum effective dose;</p>
+
+<p>MEK, MAPK/extracellular signal–related kinase kinase;</p>
+
+<p>MFD maximal feasible dose;</p>
+
+<p>MSRD, maximum recommended starting dose;</p>
+
+<p>MTD, maximum tolerated dose;</p>
+
+<p>NDA, new drug application;</p>
+
+<p>NOAEL, no-observed-adverse-effect level;</p>
+
+<p>PAD, pharmacologically active dose;</p>
+
+<p>PI3K, phosphoinositide 3-kinase;</p>
+
+<p>PRA, process risk assessment;</p>
+
+<p>PSA, parallel scientific advice;</p>
+
+<p>QbD, quality by design;</p>
+
+<p>REC, response evaluation committee;</p>
+
+<p>RPN, risk priority number;</p>
+
+<p>SAWP, Scientific Advice Working Part;</p>
+
+<p>SmPC, summary of product characteristics;</p>
+
+<p>SOS, son of sevenless;</p>
+
+<p>TTF, time to treatment failure;</p>
+
+<p>VEGF, vascular endothelial growth factor.</p>
+
+<h1 id="product-overview">Product Overview</h1>
+
+<p><strong>Date</strong> : 2022/10/15</p>
+
+<p><strong>Name</strong> :Dylan Lawless</p>
+
+<p><strong>Track</strong> : Drugs</p>
+
+<p><strong>Product Profile</strong> : Our product is a monoclonal antibody to be used in a phase 1 clinical trial in oncology. The company is named VaudBioTech with headquarters located in Switzerland. This company is the discoverer of the product in question. The planned phase 1 clinical trial will be conducted in Germany at <a href="https://www.heidelberg-university-hospital.com/">Heidelberg University Hospital</a>. Additional information is provided to summarize the potential phase 2 and 3 clinical trials.</p>
+
+<p><strong>Company</strong>** :** VaudBioTech</p>
+
+<p><strong>Product name</strong> :Hertumig.</p>
+
+<p><strong>Treatment</strong> : Treatment of HER2 receptor positive breast cancer.</p>
+
+<p><strong>Delivery</strong> : Intravenous administration.</p>
+
+<p><strong>Mechanism/target</strong> : Similar to the mode of action from Pertuzumab and Herceptin (as illustrated in Figure 1), Hertumigtargets a newly defined antigen of HER2 which inhibits the<a href="https://en.wikipedia.org/wiki/Protein_dimer">dimerization</a> with other HER receptors, therebypreventing <a href="https://en.wikipedia.org/wiki/HER2/neu#Signal_transduction">signaling</a>in ways that promote cell growth and proliferation. HER2 positive breast cancer is caused by <em>ERBB2</em> gene amplification that results in overexpression of HER2 in approximately 15-30% of breast cancer tumors. Stimulates cell proliferation and cell growth. It is a bispecific monoclonal antibody (BsMAb)which targets two epitopes.</p>
+
+<p><strong>Discussion</strong> : This drug is reminiscent of the classical mAb anticancer treatments; (i) similar to <a href="https://en.wikipedia.org/wiki/Pertuzumab">Pertuzumab</a> (RG6264, Perjeta) from <a href="https://en.wikipedia.org/wiki/Genentech">Genentech</a> which was first approved in 2012, Europe in 2013, etc. (ii) similar to <a href="https://en.wikipedia.org/wiki/Trastuzumab">Trastuzumab</a>, Herceptin from Genentech very well known, approval US 1998, EU 2000, WHO essential medicine, as illustrated in Figure 1.</p>
+
+<p>##</p>
+
+<h2 id="product-details">Product details</h2>
+
+<p><strong>Chemical Name</strong> : Immunoglobulin G1 (human-mouse monoclonal rhuMAb HER2γ1- chain anti-human P185c-erB2 receptor) disulphided with human-mouse monoclonal rhuMAb HER2 light chain, dimer. Molecular Formula/Molecular Weight: C6460H9972N1724O2014S44 / 148 kDa (without the N-glycan moiety). Structure or Biochemical Description: SB3 (hertumig) contains human framework regions with the complementarity-determining regions of a murine antibody (4D5) modified to bind to two epitopes of HER2. SB3 consists of 1,328 amino acids. The amino acid sequences for the heavy and light chains of SB3 are listed in the following fasta format:</p>
+
+<p>&gt;Hertumig_Heavy_Chain</p>
+
+<p>EVQLVESGGG LVQPGGSLRL SCAASGFNIK DTYIHWVRQA PGKGLEWVAR IYPTNGYTRY</p>
+
+<p>ADSVKGRFTI SADTSKNTAY LQMNSLRAED TAVYYCSRWG GDGFYAMDYW GQGTLVTVSS</p>
+
+<p>ASTKGPSVFP LAPSSKSTSG GTAALGCLVK DYFPEPVTVS WNSGALTSGV HTFPAVLQSS</p>
+
+<p>GLYSLSSVVT VPSSSLGTQT YICNVNHKPS NTKVDKKVEP KSCDKTHTCP PCPAPELLGG</p>
+
+<p>PSVFLFPPKP KDTLMISRTP EVTCVVVDVS HEDPEVKFNW YVDGVEVHNA KTKPREEQYN</p>
+
+<p>STYRVVSVLT VLHQDWLNGK EYKCKVSNKA LPAPIEKTIS KAKGQPREPQ VYTLPPSREE</p>
+
+<p>MTKNQVSLTC LVKGFYPSDI AVEWESNGQP ENNYKTTPPV LDSDGSFFLY SKLTVDKSRW</p>
+
+<p>QQGNVFSCSV MHEALHNHYT QKSLSLSPG</p>
+
+<p>&gt;Hertumig_Light_Chain:</p>
+
+<p>DIQMTQSPSS LSASVGDRVT ITCRASQDVN TAVAWYQQKP GKAPKLLIYS ASFLYSGVPS</p>
+
+<p>RFSGSRSGTD FTLTISSLQP EDFATYYCQQ HYTTPPTFGQ GTKVEIKRTV AAPSVFIFPP</p>
+
+<p>SDEQLKSGTA SVVCLLNNFY PREAKVQWKV DNALQSGNSQ ESVTEQDSKD STYSLSSTLT</p>
+
+<p>LSKADYEKHK VYACEVTHQG LSSPVTKSFN RGEC</p>
+
+<p>Composition: Hertumig is a sterile, white to pale yellow, preservative-free lyophilized powder for intravenous (IV) administration. Each vial contains 440 mg of Hertumig, 6.4 mg L-histidine, 9.9 mg L-histidine HCl, 1.8 mg polysorbate 20, and 400 mg α,α-trehalose dihydrate. Reconstitution with 20 mL of the supplied BWFI, containing 1.1% benzyl alcohol as a preservative, yields a multi-dose solution containing 21 mg/mL Hertumig, at a pH of approximately 6.</p>
+
+<p><strong>Availability</strong> : Hertumig is supplied as a lyophilized, sterile powder containing 440 mg Hertumig per vial under vacuum.BWFI is supplied as a 20 mL vial of sterile solution containing 1.1% benzyl alcohol as an antimicrobial preservative.Each carton contains one vial of 440 mg Hertumig and one 20 mL vial of BWFI containing 1.1% benzyl alcohol.</p>
+
+<p><img src="RackMultipart20221110-1-a75fti_html_dc0306e7c41e2784.jpg" alt="" /></p>
+
+<p><em>Figure 1 Cryo-EM structure of HER2 bound by mAb</em></p>
+
+<p>HER2 (cyan) extracellular domain, Trastuzumab Fab (Herceptin - red and pink), and Hertumig Fab complex (Perjeta - yellow and orange). Derived from PDB 6OGE <a href="https://doi.org/10.1371/journal.pone.0216095">https://doi.org/10.1371/journal.pone.0216095</a>.</p>
+
+<h2 id="preclinical-and-clinical-trials-overview">Preclinical and clinical trials overview</h2>
+
+<p>Hertumig was produced as a humanized anti-HER2 mAb to target HER2-overexpressing breast tumors. The design was based on the body of work since the original development of Trastuzumab (Herceptin) [1] and the advent of modern mAb treatments [2], [3], more than 100 of which have now been approved by FDA [4].</p>
+
+<p>Our <em>in vitro</em> <strong>preclinical</strong> data has demonstrated the effect of Hertumig equal to or surpassing trastuzumb (Herceptin) due to its bispecific epitope binding activity to produceantiproliferative and antitumor effects in ovarian and breast cancer cell lines. Additional evidence was demonstrated using human breast cancer xenograft models. The design of these experiments reflects those demonstrated previously by Baselga et al. 1998; Carter et al. 1992; Lewis et al. 1993; Pegram et al. 1999 [1], [5]–[7] and thus support the proposed functional mechanism of action compared to drugs currently on the market. With our successful <em>in vitro</em> demonstration of the scientific bases, <strong>preclinical</strong> and clinical trials have been planned. The <strong>preclinical</strong> trials quantified pharamacokinetic and toxicology outcomes and returned favorable results (Figure 2). Therefore, a clinical trial program will be established in small numbers of patients.</p>
+
+<p><strong>Phase 1</strong> clinical trials will be performed to show that the antibody is safe and confined to the tumor. Two open-label <strong>phase 1</strong> dose escalation trials will be carried out, consisting of single and weekly-repeated doses of Hertumig monotherapy for patients with advanced refractory HER2-positive metastatic breast cancer [8], [9]. <strong>Phase 2</strong> trials will assess whether women with HER2-positive metastatic disease who had relapsed after chemotherapy will respond to Hertumig. Results should support the <strong>preclinical</strong> data to demonstrate the efficacy of Hertumig when given with chemotherapy as superior to its effectiveness when used alone. <strong>Phase 2</strong> trials of Hertumig monotherapy [10] and Hertumig in combination with cisplatin (50 or 100 mg/m2) [11] will be undertaken. As in the <strong>phase 1</strong> trials, the patient population will consist of pretreated HER2-positive metastatic breast cancer patients of European ancestry. These studies will assess the appropriate dosage, safety and potential efficacy of Hertumig as a single agent and in combination with concomitant chemotherapy in humans. Based on these data, progression to pivotal clinical trials can be pursued in order demonstrate the efficacy and subsequently obtain its marketing approval by regulatory authorities.</p>
+
+<p>If <strong>phase 1</strong> and <strong>2</strong> trials produce successful end points, pivotal trials will be conducted in large numbers of HER2-positive metastatic breast cancer patients: a phase 2 trial of second-/third-line Herceptin monotherapy [12] and a <strong>phase 3</strong> first-line Hertumig combination trial [13]–[15]. <strong>Phase 3</strong> trials are expected to be carried out in women with cancers that overexpressed HER2 who have not previously received chemotherapy for metastatic disease. They will be randomly assigned to receive either chemotherapy alone or chemotherapy plus Hertumig. The primary end points of the study will be the time-to-disease-progression and the incidence of adverse effects. Secondary end points will be the rates and the duration of responses, the time-to-treatment-failure, and overall survival.</p>
+
+<p>Details used for the planning of these trials are described elsewhere and use additional evidence derived from similar studies [8], [15]–[17]. Dosages will be defined based on <strong>phase 1</strong> outcomes, however, Hertumig administration is currently estimated as a 4-mg/kg initial dose followed by a 2-mg/kg IV weekly maintenance dose (to be modified based on the preceding outcomes). In the combination trial, patients will be randomized to receive Hertumig with anthracycline-cyclophosphamide (AC) versus AC alone or, if they had previously received adjuvant anthracyclines, Hertumig plus paclitaxel versus paclitaxel alone.</p>
+
+<p>An independent Response Evaluation Committee (REC) will be employed to determined tumor responses in the intent-to-treat-population (n = 200) of the pivotal <strong>phase 2</strong> trial. They will measure the overall response rate (e.g. 20%), duration of response (e.g. 12 months) and a median survival (e.g. 24 months). The median time to treatment failure (TTF) (e.g. 24 months) will be compared with that for the prior regimens of chemotherapy (e.g. 6 months). Similarly, independent evaluation will be performed for <strong>phase 3</strong> trials to quantify the expected increase the clinical benefit of first-line chemotherapy. Statistical analysis will be carried out as reported in preregistration throughout. Data will be collected and analyzed according to the statistical analysis plan by our contract research organization.</p>
+
+<p><img src="RackMultipart20221110-1-a75fti_html_41b17ba53a127438.png" alt="" /></p>
+
+<p><em>Figure 2 Nonclinical evaluation for small molecules.</em></p>
+
+<p>Figure reproduced from Nürnberg and Pierre 2017 [18]. Biologics may require fewer nonclinical studies than small molecules but can be complicated due to novelty and lack of relevant model species. Often the rodent species by be omitted if they are not representative of the expected human response. However, transgenic murine models may be required. Immunogenicity can produce both a lack of efficacy or severe adverse outcomes (PD and PK). Extensive immunogenicity testing may be required. Only major steps are illustrated; e.g. carcinogenicity may require dose testing and subsequent two-year rodent study and six-month transgenic mouse study.</p>
+
+<h1 id="part-a-preclinical-plan">Part A: Preclinical Plan</h1>
+
+<h2 id="section-detail-acute-toxicity">Section detail: Acute toxicity</h2>
+
+<p>In accordance with <a href="https://www.ema.europa.eu/en/ich-m3-r2-non-clinical-safety-studies-conduct-human-clinical-trials-pharmaceuticals">ICH M3</a> R2 [19], acute toxicity was assessed using single-dose toxicity studies in two mammalian species (one non-rodent):</p>
+
+<ol>
+  <li>Intravenous (IV) bolus administration in mice (M+F) at 0, 10, 50 and 100 mg/kg<a href="/Volumes/GoogleDrive/My%20Drive/E4Ldrugdevice/dylan_notes_docs/dylan_case_study/demo"><em>H0030\ <strong>_preclinical_</strong> a__cute_toxicity_study_handbook.pdf</em></a><em>.</em></li>
+  <li>IV bolus administration in rhesus monkeys (M+F) at 0, 5, 25 and 50 mg/kg <em><a href="/Volumes/GoogleDrive/My%20Drive/E4Ldrugdevice/dylan_notes_docs/dylan_case_study/demo">H0031_preclinical_acute_toxicity_study_handbook.pdf</a>.</em></li>
+</ol>
+
+<p>Studies were performed under good laboratory practice (GLP) (<a href="https://www.ema.europa.eu/en/human-regulatory/research-development/compliance/good-laboratory-practice-compliance">ICH GLP</a>). Additional preclinical studies were repeated in rhesus monkeysto validate the progressive changes towards clinical trial production formats: liquid formulation process change from Hertumig H2 to Hertumig H13 (study H0031a), manufacturing processing change (study H0031b), and production of clinical-grade lyophilized Hertumig (study H0031c).</p>
+
+<p>The presence or absence of toxicity of several different preparations and formulations of hertumig was be measured based on standard parameters including food consumption, body weight, antibody formation, clinical chemistry and macro- and microscopic examination of standard organs/tissues. The no-observable-effect-level (NOEL) was obtained which, based on other similar products, was 100 and 50 mg/kg in mice and rhesus monkeys, respectively. In these studies (H0030, H0031a-c), both the clinical and parenteral route of administration wereused; intravenous (IV) bolus. The minimum and maximum dosages (5 - 50 mg/kg) were administered over 90 minutes without short-term adverse effects. Each study was conducted under GLP (<a href="https://www.ema.europa.eu/en/human-regulatory/research-development/compliance/good-laboratory-practice-compliance">ICH GLP</a>). All subjects were evaluated for antibody production. No anti-hertumig antibodies were detected, precluding subsequent allergic manifestations which would be a concern for further clinical testing. Acute toxicity results will be used in combination with the known toxicity for other mAbs to assess the potential consequences of human overdose and will be available to support Phase III.</p>
+
+<p><em>Table 1Overall Summary of Nonclinical Acute Toxicity Studies with Hertumig</em></p>
+
+<p><em>F, female;</em> <em>GLP, Good laboratory practice;</em> <em>M, male. <strong>a This study was conducted to support a liquid formulation process change from Hertumig H2 to Hertumig H13.</strong> b This study was conducted to support the clinical use of Hertumig produced by a scaled-up manufacturing process, Hertumig (H13-12K)__.</em> <em>c This study was conducted to support the clinical use of lyophilized Hertumig.</em></p>
+
+<p><img src="RackMultipart20221110-1-a75fti_html_4bc37f9aa4927e1c.png" alt="" /></p>
+
+<h2 id="section-detail-dosage">Section detail: Dosage</h2>
+
+<p>In accordance with <a href="https://www.ema.europa.eu/en/ich-m3-r2-non-clinical-safety-studies-conduct-human-clinical-trials-pharmaceuticals">ICH M3</a> R2 [19], dosage was assessed for non-clinical trials. The maximum recommended starting dose (MSRD) is required as the first step in first-in-human (FIH) testing. This determination is based on <em>in vitro</em> and <em>in vivo</em> pharmacological, pharmacodynamic, pharmacokinetic, physiological, and toxicological data. Preclinical dosages were guided based on functionally similar mAb [1], [5]–[7] and based on our successful <em>in vitro</em> studies. Additional non-anti-HER2 mAb treatments were assessed to estimate potential dosage variations for preclinical testing [2], [3],</p>
+
+<p>The no-observed-adverse-effect level (NOAEL) dose was be determined from the GLP toxicology study. The pharmacologically active dose (PAD) was quantified in the preclinical trials and based on other similar mAb, defined for the FIH clinical trials [2], [3]. MSRD was calculated from the NOAEL and additionally compared with the PAD and the minimal anticipated biological-effective level (MABEL). Lastly, based on the multiple measurements (MABEL, PAD, NOAEL) the lowest estimate will used in phase 1 clinical trials [20]. After IV administration the initial plasma concentration is typically approximately 50mL/kg. The mAb is initially confined to circulation in the vasculature with eventual extravasation into tissue [20]–[22].</p>
+
+<h1 id="part-b-clinical-plan">Part B: Clinical Plan</h1>
+
+<h2 id="section-detail-trial-design">Section detail: Trial design</h2>
+
+<p>Clinical Trial Protocol was drafted for inclusion in the application of Hertumig. In this we define the main points of the clinical trial protocol and consider a master protocol. In addition to regulatory guidelines, we</p>
+
+<p>include protocol aims for cancer trials from <a href="http://www.nature.com/news/master-protocol-aims-to-revamp-cancer-trials-1.13176">Ledford 2013</a> [23] and <a href="http://www.nejm.org/doi/full/10.1056/NEJMra1510062#t=article">Woodcock and LaVange 2017</a>[24]. We additionally considered<a href="https://www.ema.europa.eu/en/human-regulatory/research-development/prime-priority-medicines">PRIME</a>(EU) and <a href="https://www.fda.gov/regulatory-information/food-and-drug-administration-safety-and-innovation-act-fdasia/fact-sheet-breakthrough-therapies">Breakthrough Designations</a> (US).</p>
+
+<p>In accordance with <a href="https://www.ema.europa.eu/en/ich-m3-r2-non-clinical-safety-studies-conduct-human-clinical-trials-pharmaceuticals">ICH M3</a>Non-clinical safety studies for the conduct of human clinical trials for pharmaceuticals (R2) [19] and <a href="https://www.ema.europa.eu/en/ich-e6-r2-good-clinical-practice">ICH E6</a>: Guideline for good clinical practice (R2) [32], phase 1 acute toxicity will be assessed using single-dose toxicity studies. Two studies will be performed:</p>
+
+<ol>
+  <li>IV bolus single dose administration to women who have not received chemotherapy within 30 days at 10, 50, 100, 250 mg<a href="/Volumes/GoogleDrive/My%20Drive/E4Ldrugdevice/dylan_notes_docs/dylan_case_study/demo"><em>H <strong>C1</strong> 030\ <strong>_clinical_</strong> a__cute_tox_study_handbook.pdf</em></a><em>.</em></li>
+  <li>IV bolus single dose administration to women are receiving chemotherapy at 10, 50, 100, 250 mg <em><a href="/Volumes/GoogleDrive/My%20Drive/E4Ldrugdevice/dylan_notes_docs/dylan_case_study/demo">HC1031_preclinical_acute_tox_with_chemo_study_handbook.pdf</a>.</em></li>
+</ol>
+
+<p>Upon successful outcomes, phase 2 and phase 3 studies are expected to follow (with duration and dosages to be adjusted as appropriate based on outcomes of MABEL, PAD, NOAEL in phase 1 trials:</p>
+
+<ol>
+  <li>IV bolus administration initially at 4 mg/kg followed by 1 mg/kg weekly for 9 weeks total to women who have not received chemotherapy within 3 weeks <a href="/Volumes/GoogleDrive/My%20Drive/E4Ldrugdevice/dylan_notes_docs/dylan_case_study/demo"><em>H <strong>C2</strong> 030___clinical_multi_study_handbook.pdf</em></a><em>.</em></li>
+  <li>IV bolus administration initially at 250 mg followed by 100 mg weekly for 9 weeks total to women who will received chemotherapy in combination <a href="/Volumes/GoogleDrive/My%20Drive/E4Ldrugdevice/dylan_notes_docs/dylan_case_study/demo"><em>H <strong>C2</strong> 03 <strong>1</strong> ___clinical_multi_with_chemo_study_handbook.pdf</em></a><em>.</em></li>
+  <li>IV bolus administration initially at 4 mg/kg followed by 2 mg/kg weekly for 9 weeks total to women who initially received chemotherapy and have incurred relapse of disease <a href="/Volumes/GoogleDrive/My%20Drive/E4Ldrugdevice/dylan_notes_docs/dylan_case_study/demo"><em>H <strong>C2</strong> 03 <strong>2</strong> ___clinical_mutli_with_chemo_study_handbook.pdf</em></a><em>.</em></li>
+  <li>Women will receive chemotherapy with or without IV bolus administration of initially 4 mg/kg followed by 2 mg/kg weekly <a href="/Volumes/GoogleDrive/My%20Drive/E4Ldrugdevice/dylan_notes_docs/dylan_case_study/demo"><em>H <strong>C3</strong> 03 <strong>0</strong> ___clinical_multi_with_chemo_study_handbook.pdf</em></a><em>.</em></li>
+</ol>
+
+<h2 id="section-detail-dosage-1">Section detail: Dosage</h2>
+
+<p>Accurate dosages for our FIH studies are required to measure a true therapeutic effect. The initial studies will assess the tolerance for the MABEL, PAD, and aim to stay below the NOAEL. Severe adverse outcomes have be reported in published cases of mAb therapies, which have been blamed on poor adherence to regulatory guideline such as <a href="https://www.ema.europa.eu/en/ich-e6-r2-good-clinical-practice">ICH E6</a> (R2) [32], as seen in the TGN1412 study [25]. Therefore, we have followed the regulatory guidelines closely in design of our protocol. We have included information on reasons why dosage will vary for mAb [26], considerations on the safety and side effects of monoclonal antibodies [27], risk of cytokine storm in FIH study [25], and protocols in development of mAb for therapeutic use [20].</p>
+
+<p><em>Table 2 Overall Summary of Planned Clinical Studies with Hertumig</em></p>
+
+<p><img src="RackMultipart20221110-1-a75fti_html_49589d1720771850.png" alt="" /></p>
+
+<h1 id="part-c-chemistry-manufacturing-and-controls-cmc">Part C: Chemistry, Manufacturing and Controls, CMC</h1>
+
+<p>Our CMC plan on the work that needs to be done and included in the application forHertumig is summarized. Regulations were followed according to European Commission:(<a href="https://ec.europa.eu/health/documents/eudralex/vol-10_en">EudraLex Volume 10 clinical trials guidelines</a>) [28]. Multiple ICH guidelines are followed as referenced throughout. Good manufacturing practice (GMP) <a href="https://www.ema.europa.eu/en/human-regulatory/research-development/compliance/good-manufacturing-practice">(ICH GMP)</a> was followed.</p>
+
+<h2 id="description-of-manufacturing-process-and-process-controls">Description of Manufacturing Process and Process Controls</h2>
+
+<p>Hertumig is produced using a mammalian cell line expanded in bioreactor cultures followed by a drug substance purification process that includes various steps designed to isolate and purify the protein product. Residual levels of process-related impurities (e.g., host cell proteins [HCP], host cell DNA [HCD], and those specific to the Hertumig manufacturing process) were evaluated as part of the Hertumig drug substance in-process and release testing. The data provided demonstrated that the Hertumig drug substance manufacturing process sufficiently reduces the impurities to very low levels (e.g., ppm for HCP and pg/ml for HCD). The Hertumig drug product was developed as a multi-dose vial containing 440 mg of lyophilized powder, to reflect the same strength, presentation and route of administration as EU-Herceptin (440 mg). The manufacturing process for Hertumig drug substance was scaled-up over the course of development, and comparability studies between the scales demonstrated consistency of the product. The drug product manufacturing process remained essentially the same. The drug product intended for commercial use was demonstrated to be analytically comparable to the drug product manufactured for clinical use, and combined data were included in the analytical similarity assessment. Analytical assessments have been carried out as listed in Table 3.</p>
+
+<p><em>Table 3 Quality attributes and methods used to evaluate Hertumic production</em></p>
+
+<p><img src="RackMultipart20221110-1-a75fti_html_fce02bbb679b4657.png" alt="" /></p>
+
+<h2 id="design-spaces">Design spaces</h2>
+
+<p>Based on similar drugs (Herceptin, Perjeta), we have proposed the design space (input variables [e.g., material attributes] and process parameters that have been demonstrated to provide assurance of quality)which is subject to regulatory assessment and approval, as advised by <a href="https://www.ema.europa.eu/en/ich-q8-r2-pharmaceutical-development">ICH Q8</a> [29, p. 8]. Working within the design space is not considered as a change but any additional changes will initiate a regulatory postapproval change process. Critical quality attributes (CQAs) have been assigned to control the impact of each unit operation.</p>
+
+<p><img src="RackMultipart20221110-1-a75fti_html_a27af2667a01589e.jpg" alt="" /></p>
+
+<p><em>Figure 3 Example design space</em></p>
+
+<p><em>Example of our</em> <em>design space for a hydrophobic-interaction chromatography (HIC) step used to purify an Fc fusion protein <strong>as determined by Jiang et al</strong>. [30]</em></p>
+
+<h2 id="process-risk-assessment">Process Risk Assessment</h2>
+
+<p>We have identified,explored, and optimized (and will produce eventual specification) multiple operating parameters.A process risk assessment (PRA) has been carried out for the operating parameters (inputs) for each process step, e.g., cell density and viability for an upstream process or load temperature, load pH, and load conductivity for a column chromatography step. PRA was carried out using failure modes effects and criticality analysis (FMECA), based on <a href="https://www.ema.europa.eu/en/ich-q9-quality-risk-management">ICH Q9</a> [31, p. 9].Each operating parameter was assessed to calculate a risk priority number (RPN), the severity score of the level of harm to patients should failure occur, based on prior-knowledge therapeutic mAbs.</p>
+
+<h2 id="specifications">Specifications</h2>
+
+<p>Specifications for design spacesof in-process, drug substance, and drug product attributes were produced. Which, in accordance with <a href="https://www.ema.europa.eu/en/ich-q6b-specifications-test-procedures-acceptance-criteria-biotechnologicalbiological-products">ICH Q6B</a> [32], include a list of tests, references to analytical procedures, and appropriate acceptance criteria which are numerical limits, ranges, or other criteria for the tests described”;</p>
+
+<p><a href="https://www.ema.europa.eu/en/ich-q6b-specifications-test-procedures-acceptance-criteria-biotechnologicalbiological-products">ICH Q6B</a> [32]. They establish “the set of criteria to which a drug substance, drug product or materials at other stages of its manufacture should conform to be considered acceptable for its intended use”; <a href="https://www.ema.europa.eu/en/ich-q6b-specifications-test-procedures-acceptance-criteria-biotechnologicalbiological-products">ICH Q6B</a> [32].These specifications we defined based on operations with CQAs in safety and efficacy using published literature other mAb drugs, and in-house nonclinical and publicclinical reports.</p>
+
+<h2 id="control-strategy">Control strategy</h2>
+
+<p>Our control strategy was designed to ensure product quality and control product and process variability. A combination of traditional control strategy elements and quality by design (QbD) for CQAs. In accordance with <a href="https://www.ema.europa.eu/en/ich-q10-pharmaceutical-quality-system">ICH Q10</a> [33, p. 10], the control strategy is “a planned set of controls, derived from current product and process understanding that assures process performance and product quality” and include “parameters and attributes related to drug substance and drug product materials and components, facility and equipment operating conditions, in-process controls, finished-product specifications, and the associated methods and frequency of monitoring and control”<a href="https://www.ema.europa.eu/en/ich-q10-pharmaceutical-quality-system">ICH Q10</a> [33, p. 10]. An example of our control strategy risk assessment is illustratedin Figure 4, which shows <strong>t</strong> he formula for our risk assessment for mAb development.</p>
+
+<p><img src="RackMultipart20221110-1-a75fti_html_9cc6dc5b968adbbb.jpg" alt="" /></p>
+
+<p><em>Figure 4 Control strategy risk assessment for mAb</em></p>
+
+<p><em>Control strategy risk assessment combines criticality assessment of quality attributes with process capability and testing strategy to determine the risk priority number (RPN) for a control strategy__, reprinted from CMC BWG [34].</em></p>
+
+<h2 id="regulatory-filing-and-process-monitoring">Regulatory Filing and Process Monitoring</h2>
+
+<p>The regulatory filing includes detailed descriptions of the product design space, process design space, and control strategy. In accordance with <a href="https://www.ema.europa.eu/en/ich-m4-common-technical-document-ctd-registration-pharmaceuticals-human-use-organisation-ctd">ICH M4</a> (R4) [35, p. 4], the regulatory filings can be submitted using the common technical document (CTD) format, a harmonized approach to filing a new drug application (NDA) in all regions that are signatory to the International Conference on Harmonisation of Technical Requirements for the Registration of Pharmaceuticals for Human Use; <a href="https://www.ema.europa.eu/en/ich-m4-common-technical-document-ctd-registration-pharmaceuticals-human-use-organisation-ctd">ICH M4</a> (R4) [35, p. 4].Following approval of our product, we will continually monitor the manufacturing process to ensure that variability remains within limits defined by the process design space. The QbD protocolwill allow usto modify the process without needing further review or regulatory approval.</p>
+
+<h1 id="part-d-scientific-advice">Part D: Scientific Advice</h1>
+
+<h2 id="ema-scientific-advice-overview">EMA Scientific Advice overview</h2>
+
+<p>The European Medicines Agency (EMA) can provide scientific advice at any stage of a medicine’s development.</p>
+
+<p>The purpose of this process is to answer VaudBiotech’s questions which are not fully answered by guidance documents and other publicly available resources and provide information that will assist in preparing our market approval application and reduce the risk of a clinical hold. The process ensures that appropriate tests and studies are designed, so that no major objections regarding the design of the tests are likely to be raised during the evaluation of the marketing authorisation application. For Hertumig, scientific advice and protocol assistance are given by the <a href="https://www.ema.europa.eu/en/committees/committee-medicinal-products-human-use-chmp">Committee for Medicinal Products for Human Use</a> (CHMP) on the recommendation of the Scientific Advice Working Party (SAWP).</p>
+
+<p>Requesting scientific advice or protocol assistance from EMA will be completed using the <a href="https://www.ema.europa.eu/en/human-regulatory/research-development/scientific-advice-protocol-assistance/requesting-scientific-advice-protocol-assistance-ema">IRIS platform</a>. The briefing document has be drafted using the EMA template (<a href="https://www.ema.europa.eu/documents/template-form/chmp-protocol-assistance-scientific-advice-briefing-document-template_en.doc">direct download of template</a>). Regulatory and proceduralguidance on applying for scientific advice, was derived from <a href="https://www.ema.europa.eu/en/human-regulatory/research-development/scientific-advice-protocol-assistance/scientific-advice-protocol-assistance-regulatory-procedural-guidance#standard-operating-procedures-and-work-instructions-section">EMA guidance for applicants</a>.</p>
+
+<p><img src="RackMultipart20221110-1-a75fti_html_e398caf86aa1dd86.png" alt="" /></p>
+
+<p><em>Figure 5 Scientific Advice and Protocol Assistance procedurefrom EMA</em></p>
+
+<p><em>Standard operating procedure 01-DEC-15</em> <em>SOP/H/3037 from</em> <a href="https://www.ema.europa.eu/en/human-regulatory/research-development/scientific-advice-protocol-assistance/scientific-advice-protocol-assistance-regulatory-procedural-guidance#standard-operating-procedures-and-work-instructions-section"><em>EMA regulatory and procedural guidance for scientific advice</em></a><em>.</em></p>
+
+<p>Our completed briefing application documentation (<a href="https://www.ema.europa.eu/en/documents/assessment-report/perjeta-epar-public-assessment-report_en.pdf">ema_scientific_advice_submission.pdf</a>) includes:</p>
+
+<ul>
+  <li>Introduction including background information on the disease, the product, regulatory status, and rational for seeking advice.</li>
+  <li>Overview of product development including quality information, non-clinical information (pharmacology, PK, PD, toxicology), known clinical pharmacology of similar drugs and those predicted for Hertumig (clinical pharmacology, PK, PD, efficacy, and safety).</li>
+  <li>Questions on quality development; both non-clinical and clinical development, significant benefit, and other CHMP comments.</li>
+</ul>
+
+<h2 id="parallel-scientific-advice">Parallel scientific advice</h2>
+
+<p>Phase 1 trials will be conducted in Germany and subject to EMA regulations. For expansion into the US market, it is advisable to conduct joint EMA-FDA parallel scientific advice (PSA). Information can be found by request for PSA from either the EMA or FDA (<a href="https://www.ema.europa.eu/en/documents/other/general-principles-european-medicines-agency-food-drug-administration-parallel-scientific-advice_en.pdf">general principles information</a>). Further information specific to EMA only can be obtained from the section: EMA <a href="https://www.ema.europa.eu/en/human-regulatory/research-development/scientific-advice-protocol-assistance#how-scientific-advice-works-section">Scientific advice</a>. Further information specific to FDA only (for US application) can be obtained under the section: FDA <a href="https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/otat-pre-ind-meetings">Pre-IND</a>.</p>
+
+<h2 id="application-timetable">Application timetable</h2>
+
+<p>Dates of 2023 SAWP meetings and submission deadlines can be found from EMA (<a href="https://www.ema.europa.eu/en/documents/other/dates-2022-scientific-advice-working-party-sawp-meetings-submission-deadlines-scientific-advice/eunethta-parallel-consultation-requests_en.pdf">direct download</a>). Table 4 lists the planned application deadlines.</p>
+
+<p><em>Table 4 2023 Submission deadlines - Scientific advice, protocol assistance, qualification of biomarkers</em></p>
+
+<p><em>Dates of 2023 SAWP meetings and submission deadlines__. Dates shown are the first available dates. Monthly meetings are held and as such, application can be adjusted to start at any of the available monthly meetings.</em></p>
+
+<p><img src="RackMultipart20221110-1-a75fti_html_5ee52b2badf1999.png" alt="" /></p>
+
+<h2 id="section-detail-dose-response-studies">Section detail: Dose response studies</h2>
+
+<p>We will receive advice to ensure that we have complete the requirements for our dose response studies. Two of the Phase I studies will consist of ascending dose studies in which Hertumig will be administered as a single agent to patients with advanced solid tumors, in doses of 10 up to 250 mg/kg administered as an IV infusion once. Both will be conducted in patients of European ancestry. The studies will be conducted for women who have not received chemotherapy and women who are receiving chemotherapy.</p>
+
+<p>After determining tolerance under both of these conditions, efficacy and toxicity will be assessed in further multidose trials. This will consist of administration of a fixed initial loading dose of 250mg and 100mg weekly doses for 9 weeks. These studies will be conducted for those with and without additional chemotherapy to assess repossesses. PK analysis based on the data from Phase I studies with single-agent Hertumig will quantify the frequency of patients who receive the fixed, non-weight-based dosing regimen (250 mg loading dose with a 100 mg maintenance dose) that achieve steady-state trough serum concentrations that are higher than the target serum concentration (&gt; 20 μg/mL, the target for efficacy predicted from nonclinical models). If the target concentrations are achieved by this dosing regimen, higher doses will not be selected.</p>
+
+<h2 id="section-detail-non-clinical-aspects">Section detail: Non-clinical aspects</h2>
+
+<p>We will receive advice to ensure that we have complete the requirements for our non-clinical studies. Based on <em>in vitro</em> and <em>in vivo</em> PD data, there is a clear rationale for the inclusion of Hertumig in a drug combination regimen in the treatment of breast cancer. No effects on safety pharmacology end points (respiratory and cardiovascular) are expected in the repeat-dose toxicity studies. The major finding made from our pre-clinical trials from rhesus monkey repeat-dose toxicity studies was severe diarrhoea which led to the need for intensive supportive care and in one case it was necessary to euthanize the animal. In line with ICH guidance, <a href="https://www.ema.europa.eu/en/ich-s6-r1-preclinical-safety-evaluation-biotechnology-derived-pharmaceuticals">ICH S6</a>: Preclinical safety evaluation of biotechnology-derived pharmaceuticals [36] and <a href="https://www.ema.europa.eu/en/ich-s9-non-clinical-evaluation-anticancer-pharmaceuticals">ICH S9</a>: Non-clinical evaluation for anticancer pharmaceuticals [37], no studies on genotoxicity and carcinogenicity have been performed.</p>
+
+<p>According to the <a href="https://www.ema.europa.eu/en/ich-s9-non-clinical-evaluation-anticancer-pharmaceuticals">ICH S9</a> guidance [37], fertility studies were not required for medicinal products indicated for late-stage cancer. The risk of effects on fertility were obtained from the examination of reproductive organs in our repeat-dose toxicity studies. In the present application, the large majority of male rhesus monkeys used in the repeat-dose toxicity studies were sexually immature. Only one of the male subjects undergoing high-dose (50 mg/kg) Hertumig treatment was sexually mature. Therefore, no information could be obtained on the potential effect of Hertumig on the male reproductive organs. However, evidence of menses was noted for 7 out of 8 female monkeys treated with Hertumig hence the large majority of the female monkeys were sexually mature during the treatment period.</p>
+
+<p>No effects on the female reproductive organs were seen in the repeat-dose toxicity studies performed with Hertumig. Findings made in the rhesus monkeys embryo-fetal development study (HP0031d), consisted of low amniotic fluid volume, high fetal lethality, retarded development, and external (paw hyperextension, paw hyperflexion and microtia), visceral (small lungs, thin ventricular wall and ventricular septum defect, hypoplasia of the collecting glomeruli, renal tubules, collecting tubules and pelvis) and skeletal abnormalities (reduced length of ossified bones). The observed external, visceral and skeletal abnormalities were considered secondary to intrauterine restriction resulting from the oligohydramnios (low amniotic fluid volume).</p>
+
+<p>In humans oligohydramnios may be associated with marked deformation and growth restriction of the fetus due to intrauterine constraint. Moreover, oligohydramnios adversely affects fetal lung development resulting in pulmonary hypoplasia. Histopathologically, kidney hypoplasia was observed in all treated fetuses and this was associated with a dose-dependent increase in severity. HER-family members play an important role in the regulation of growth, differentiation and morphogenesis of renal tissue and the interaction of these receptors may be perturbed by inhibition of HER2 dimerisation by Hertumig. Moreover, it is likely that the ventricular abnormalities in the fetuses were the result of a direct treatment-related effect. As no NOAEL for fetal toxicity was established in this study, it cannot be excluded that the observed fetal toxicity may occur at therapeutic Hertumig concentrations in humans.</p>
+
+<p>In line with guidance <a href="https://www.ema.europa.eu/en/ich-s6-r1-preclinical-safety-evaluation-biotechnology-derived-pharmaceuticals">ICH S6</a> [36] and <a href="https://www.ema.europa.eu/en/ich-s9-non-clinical-evaluation-anticancer-pharmaceuticals">ICH S9</a> [37], no studies on genotoxicity and carcinogenicity have been performed. No specific fertility studies in animals have been performed to evaluate the effect of Hertumig. No definitive conclusion on adverse effects can be drawn on the male reproductive organs in rhesus monkey repeated dose toxicity study. Based on the review of the data on non-clinical aspect the following statements to address the potential risk of Hertumig in pregnant women have been included the summary of product characteristics (SmPC).</p>
+
+<h1 id="part-e-inspection-readiness">Part E: Inspection Readiness</h1>
+
+<p>Inspection may be carried out for a number of reasons including:</p>
+
+<ul>
+  <li>Verification of data accuracy that has been submitted</li>
+  <li>complaint about a study conduct at any site</li>
+  <li>concerns from the sponsor</li>
+  <li>termination of any clinical site</li>
+  <li>real-time assessment of the investigator’s conduct of the trial</li>
+  <li>assessment of protection of human subjects at the request of EMA</li>
+</ul>
+
+<p>Readiness will be prepared by</p>
+
+<ul>
+  <li>Forming an inspection readiness (IR) committee</li>
+  <li>IR committee prepares for inspections EMA</li>
+  <li>Ensure key documents are listed and available</li>
+  <li>Note any deficiency in regulation compliance and provide immediate action</li>
+  <li>Form an independent mock inspection team and carry out assessment</li>
+</ul>
+
+<p>Key responsibilities by the IR committee include the review of protocols, ethics and regulatory approval, quality assurance and sops, investigator master file, personnel, facilities, sampling, recruitment and consent, contracts, insurance and indemnity, confidentiality, and adverse events.</p>
+
+<p>Preparations have been made in accordance with European Commission<a href="https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-10_en">EudraLex Volume 10</a> clinical trials guidelines:Guidance documents containing the common provisions on the conduct of GCP inspections by competent authorities of the different member states (see chapter 4 Inspections); Guidance for the conduct of good clinical practice inspections(<a href="https://ec.europa.eu/health/sites/health/files/files/eudralex/vol-10/2008_11/vpl10_an5_10-2008_en.pdf">pdf</a>). [28].</p>
+
+<h1 id="overall-strategy">Overall strategy</h1>
+
+<p>To accelerate the submission process in Germany, with minimum questions from the health authorities and EC/IRB, and obtain rapid HA and EC/IRB approvals we will conduct scientific advice sessions at the earliest possible date with EMA. We will collaborate with experts in this technology who have a proven track record for completing timely regulatory submissions.</p>
+
+<p>We will use our direct connections to regulators to ensure a swift completion. The management plan will allow team leaders to accurately estimate and follow through with their deliverables. CMC and manufacturing control processes have identified key areas that require the most attention and will be continuously monitored in order to avoid delays. We will adhere to our inspection readiness requirements to ensure that all key documents are prepared, listed, and available for review. Team leaders will be assessed for their ability to review such documentation.</p>
+
+<p>We will closely report based on ICH guidelines and validate documentation against EudraLex guidelines. Our reporting format will be assessed during thorough scientific advice and protocol assistance by CHMP with EMA and we will confirm that members of the advice committee can accurately assess our documentation by following the recommendations of SAWP.</p>
+
+<h1 id="advice-to-management">Advice to Management</h1>
+
+<p>Hertumig has been designed to ameliorate a serious and common disease. Based on a strong background of scientific evidence, this project was carefully developed to rapidly complete key milestones in development and market approval. Using knowledge gained from three decades since the first anti-HER2 mAb development, we have produced a potent and safe therapeutic that offers a promising treatment for patients.</p>
+
+<p>Successful studies <em>in vitro</em> and <em>in vivo</em> have allowed us to quickly move through the planned pre-clinical trials.</p>
+
+<p>The outcomes in each trial were withing the expected tolerable ranges based on pre-registered statistical analysis plans. Therefore, we are confident that we are on track for progressing to clinical trials in a small number of human participants. After completing these tolerance studies, which due to similarity to existing mAb therapeutics and existing evidence are likely to successfully complete, we will be prepared to increase testing in our pivotal phase 2 studies.</p>
+
+<p>Due to our careful manufacturing design process, we are prepared for large scale production without any further modification for regulatory requirements. Risk assessments are continuously being monitored with several major milestones already complete.</p>
+
+<p>Market authorization is likely to be successful based on our adherence to regulatory guidelines and collaboration with the authorities during scientific advice phases. The key documentation used is this process is included in the references section.</p>
+
+<p>We look forward to updating you at our next meeting to report on phase 1 clinical trials.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Based on a strong scientific background of anti-HER2 mAb production and delivery, we are confident that Hertumig will successfully complete phase 1 clinical trials. Our manufacturing process has been design based on best principles derived from over 100 FDA-approved mAb therapies [2]. The CMC and production plan has been developed to ensure adherence to regulatory guidelines. We have worked with regulatory authorities to receive scientific advice about our submission package and have thus far fulfilled all requirements without challenge. All questions about ambiguity in regulatory documentation have been answered. Our pre-clinical trials have completed on schedule without any unplanned events. Therefore, we are confident about completing the next phase on target.</p>
+
+<h1 id="supplemental-introduction-on-therapeutic-mab">Supplemental introduction on therapeutic mAb</h1>
+
+<p>Monoclonal antibodies (mAb) are well established as cancer therapies. As early as 1890, the neutralizing effect on diphtheria was known [3]. In 1980, human trials of mAb therapy for the treatment of lymphoma were performed and with the advent of antibody humanization later that decade, this treatment strategy became a powerful tool for precision medicine [3].</p>
+
+<p>The advent and rise of mAb is a triumph for clinical medicine. Since the beginning of their modern understanding, the applications for mAb have been recognized; “a 1975 Nature paper reported how cell lines could be made that produce an antibody of known specificity” [4]. While these early days of antibody production - relying on hybridoma technology - were challenging, today mAb are often produced by isolation or transformation of Ab-producing cells taken directly from immunized animals or humans. The immunoglobulin genes responsible for the Ab of interest are subsequently transplanted into cell lines [4].</p>
+
+<p>Recently (2021), the FDA approved the 100th mAb product [2]. The timeline starts in 1986 with the majority of products consisting of canonical antibodies, and a small number of alternative constructs including antibody–drug conjugates, bispecific Abs, fragment Abs, and others. While a high potential exists, the hurdles for biological drug approvals limit the number of products available thus far. “Just ten targets… account for 42% of the approvals to date”: PD1/PDL1, CD20, TNF, HER2, CGRP/CGRPR, VEGF/VEGFR, IL-6/IL-6R, IL-23 p19, EGFR, and CD19 [2].</p>
+
+<p>The pharmacokinetics (PK) of monoclonal antibodies is generally well understood. The major drug disposition processes relevant for mAbs can be estimated in preclinical development. The product-specific and patient-specific factors that can affect PK behavior can be considered for successful clinical therapy [26].</p>
+
+<p>Each particular mAb has unique risks. The steps to identify and minimize potential adverse effects must be clear and accurate. preclinical and clinical protocols must be established to avoid infusion reactions [27]. Preclinical validation of in vitro safety using human tissues is necessary to predict potential outcome for administration to humans. For clinical trial volunteer safety, communication must be maintained between scientists and clinicians both in phama/biotech companies and those performing clinical studies [27].</p>
+
+<p>The serious risks of off-target antigen binding are well-known, particularly after the adverse outcome seen during the phase 1 trial of anti-CD28 mAb TGN1412 resulting in systemic inflammatory response in all six volunteers [25]. Despite the known potential for first-in-human studies there is no current robust way to ensure complete safety. Therefore, adherence to guidance and regulatory protocols are vital for safe and successful trials.</p>
+
+<p>mAb are recognized as versatile platforms for cancer immunotherapy by directly stimulating or inhibiting immunological protein pathways [38]. The induction of antitumor immune responses can be exploited to develop new cancer treatment strategies based on tumor-specific response of natural or engineered mAb [38].</p>
+
+<p>The nomenclature for our drug is defined according to the WHO International Nonproprietary Names (INN) (Programme and Classification of Medical Product) [39]. The current state of the art in anti-cancer monoclonal antibodies (mAbs) is overviewed by <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5319201/">Chiavernna, et al</a>. [40].</p>
+
+<h1 id="references">References</h1>
+
+<p>[1] P. Carter <em>et al.</em>, “Humanization of an anti-p185HER2 antibody for human cancer therapy.,” <em>Proceedings of the National Academy of Sciences</em>, vol. 89, no. 10, pp. 4285–4289, 1992.</p>
+
+<p>[2] A. Mullard, “FDA approves 100th monoclonal antibody product.,” <em>Nature reviews. Drug discovery</em>, 2021.</p>
+
+<p>[3] D. Zahavi and L. Weiner, “Monoclonal antibodies in cancer therapy,” <em>Antibodies</em>, vol. 9, no. 3, p. 34, 2020.</p>
+
+<p>[4] K. Rajewsky, <em>The advent and rise of monoclonal antibodies</em>. Nature Publishing Group, 2019.</p>
+
+<p>[5] J. Baselga, L. Norton, J. Albanell, Y.-M. Kim, and J. Mendelsohn, “Recombinant humanized anti-HER2 antibody (HerceptinTM) enhances the antitumor activity of paclitaxel and doxorubicin against HER2/neu overexpressing human breast cancer xenografts,” <em>Cancer research</em>, vol. 58, no. 13, pp. 2825–2831, 1998.</p>
+
+<p>[6] G. D. Lewis <em>et al.</em>, “Differential responses of human tumor cell lines to anti-p185HER2 monoclonal antibodies,” <em>Cancer Immunology, Immunotherapy</em>, vol. 37, no. 4, pp. 255–263, 1993.</p>
+
+<p>[7] M. Pegram <em>et al.</em>, “Inhibitory effects of combinations of HER-2/neu antibody and chemotherapeutic agents used for treatment of human breast cancers,” <em>Oncogene</em>, vol. 18, no. 13, pp. 2241–2251, 1999.</p>
+
+<p>[8] S. Shak, “Overview of the trastuzumab (Herceptin) anti-HER2 monoclonal antibody clinical program in HER2-overexpressing metastatic breast cancer. Herceptin Multinational Investigator Study Group.,” in <em>Seminars in oncology</em>, 1999, vol. 26, no. 4 Suppl 12, pp. 71–77.</p>
+
+<p>[9] C. L. Vogel <em>et al.</em>, “First-line Herceptin® monotherapy in metastatic breast cancer,” <em>Oncology</em>, vol. 61, no. Suppl. 2, pp. 37–42, 2001.</p>
+
+<p>[10] J. Baselga <em>et al.</em>, “Phase II study of weekly intravenous recombinant humanized anti-p185HER2 monoclonal antibody in patients with HER2/neu-overexpressing metastatic breast cancer.,” <em>Journal of clinical oncology</em>, vol. 14, no. 3, pp. 737–744, 1996.</p>
+
+<p>[11] M. D. Pegram <em>et al.</em>, “Phase II study of receptor-enhanced chemosensitivity using recombinant humanized anti-p185HER2/neu monoclonal antibody plus cisplatin in patients with HER2/neu-overexpressing metastatic breast cancer refractory to chemotherapy treatment.,” <em>Journal of clinical oncology</em>, vol. 16, no. 8, pp. 2659–2671, 1998.</p>
+
+<p>[12] M. A. Cobleigh <em>et al.</em>, “Multinational study of the efficacy and safety of humanized anti-HER2 monoclonal antibody in women who have HER2-overexpressing metastatic breast cancer that has progressed after chemotherapy for metastatic disease,” <em>Journal of clinical Oncology</em>, vol. 17, no. 9, pp. 2639–2639, 1999.</p>
+
+<p>[13] L. Norton, “Overall survival (OS) advantage to simultaneous chemotherapy plus humanised anti HER2 monoclonal antibody Herceptin in HER2; Overexpressing metastatic breast cancer.,” in <em>ASCO Proc</em>, 1999, vol. 483.</p>
+
+<p>[14] D. Slamon, “The addition of Herceptin (humanized anti-HER2 antibody) to first-line chemotherapy for HER2-overexpressing metastatic breast cancer (HER2+ MBC) markedly increases anti-cancer activity: A randomized, multinational controlled phase II trial.,” in <em>Proc Am Soc Clin Oncol</em>, 1998, vol. 17, p. 98.</p>
+
+<p>[15] D. J. Slamon <em>et al.</em>, “Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2,” <em>New England journal of medicine</em>, vol. 344, no. 11, pp. 783–792, 2001.</p>
+
+<p>[16] J. Baselga, “Herceptin® alone or in combination with chemotherapy in the treatment of HER2-positive metastatic breast cancer: pivotal trials,” <em>Oncology</em>, vol. 61, no. Suppl. 2, pp. 14–21, 2001.</p>
+
+<p>[17] R. D. Mass, “The concordance between the clinical trial assay (CTA) and fluorescence in situ hybridization (FISH) in the Herceptin pivotal trials,” in <em>Proc. Am. Soc. Clin. Oncol.</em>, 2000, vol. 18, p. 75A.</p>
+
+<p>[18] A. Nürnberg and H. Pierre, “An introduction to little-known aspects of nonclinical regulatory writing,” <em>Medical Writing</em>, vol. 26, pp. 9–19, 2017.</p>
+
+<p>[19] I. C. H. Guideline, “ICH: M3 (R2) Guidance on nonclinical safety studies for the conduct of human clinical trials and marketing authorization for pharmaceuticals. Version step 4 2009.,” 2009. [Online]. Available: https://database.ich.org/sites/default/files/M3_R2__Guideline.pdf</p>
+
+<p>[20] K. B. Meyer-Tamaki, “Chapter 23 - Preclinical Development of Monoclonal Antibodies,” in <em>A Comprehensive Guide to Toxicology in Nonclinical Drug Development (Second Edition)</em>, Second Edition., A. S. Faqi, Ed. Boston: Academic Press, 2017, pp. 617–645. doi: https://doi.org/10.1016/B978-0-12-803620-4.00023-2.</p>
+
+<p>[21] E. D. Lobo, R. J. Hansen, and J. P. Balthasar, “Antibody Pharmacokinetics and Pharmacodynamics,” <em>Journal of Pharmaceutical Sciences</em>, vol. 93, no. 11, pp. 2645–2668, 2004, doi: https://doi.org/10.1002/jps.20178.</p>
+
+<p>[22] D. R. Mould and B. Green, “Pharmacokinetics and Pharmacodynamics of Monoclonal Antibodies,” <em>BioDrugs</em>, vol. 24, no. 1, pp. 23–39, Feb. 2010, doi: 10.2165/11530560-000000000-00000.</p>
+
+<p>[23] H. Ledford, “‘Master protocol’ aims to revamp cancer trials.,” <em>Nature</em>, vol. 498, no. 7453, pp. 146–147, Jun. 2013, doi: 10.1038/498146a.</p>
+
+<p>[24] J. Woodcock and L. M. LaVange, “Master Protocols to Study Multiple Therapies, Multiple Diseases, or Both.,” <em>N Engl J Med</em>, vol. 377, no. 1, pp. 62–70, Jul. 2017, doi: 10.1056/NEJMra1510062.</p>
+
+<p>[25] G. Suntharalingam <em>et al.</em>, “Cytokine storm in a phase 1 trial of the anti-CD28 monoclonal antibody TGN1412.,” <em>N Engl J Med</em>, vol. 355, no. 10, pp. 1018–1028, Sep. 2006, doi: 10.1056/NEJMoa063842.</p>
+
+<p>[26] J. T. Ryman and B. Meibohm, “Pharmacokinetics of monoclonal antibodies,” <em>CPT: pharmacometrics &amp; systems pharmacology</em>, vol. 6, no. 9, pp. 576–588, 2017.</p>
+
+<p>[27] T. T. Hansel, H. Kropshofer, T. Singer, J. A. Mitchell, and A. J. George, “The safety and side effects of monoclonal antibodies,” <em>Nature reviews Drug discovery</em>, vol. 9, no. 4, pp. 325–338, 2010.</p>
+
+<p>[28] “EudraLex Volume 10 Clinical trials guidelines.” 2014. [Online]. Available: https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-10_en</p>
+
+<p>[29] I. C. H. Guideline, “ICH: Q8 Pharmaceutical development (R2),” 2009. [Online]. Available: https://database.ich.org/</p>
+
+<p>[30] C. Jiang, L. Flansburg, S. Ghose, P. Jorjorian, and A. A. Shukla, “Defining process design space for a hydrophobic interaction chromatography (HIC) purification step: application of quality by design (QbD) principles,” <em>Biotechnology and bioengineering</em>, vol. 107, no. 6, pp. 985–997, 2010.</p>
+
+<p>[31] I. C. H. Guideline, “ICH: Q9 Quality risk management,” 2021. [Online]. Available: https://database.ich.org/</p>
+
+<p>[32] I. C. H. Guideline, “ICH: Q6B Specifications: test procedures and acceptance criteria for biotechnological/biological products,” 1999. [Online]. Available: https://database.ich.org/</p>
+
+<p>[33] I. C. H. Guideline, “ICH: Q10 Pharmaceutical quality system,” 2008. [Online]. Available: https://database.ich.org/</p>
+
+<p>[34] C. B. W. Group, “A-Mab: a case study in bioprocess development. Version 2.1,” <em>Public Domain from CASSS and ISPE</em>, 2009.</p>
+
+<p>[35] I. C. H. Guideline, “ICH: M4 Common technical document (CTD) for the registration of pharmaceuticals for human use - organisation of CTD (R4),” 2004. [Online]. Available: https://database.ich.org/</p>
+
+<p>[36] I. C. H. Guideline, “ICH: S6 (R1) Preclinical safety evaluation of biotechnology-derived pharmaceuticals,” 2011. [Online]. Available: https://www.ema.europa.eu/en/ich-s6-r1-preclinical-safety-evaluation-biotechnology-derived-pharmaceuticals</p>
+
+<p>[37] I. C. H. Guideline, “ICH: S9 Nonclinical evaluation for anticancer pharmaceuticals. Guidance on nonclinical safety studies for the conduct of human clinical trials and marketing authorization for pharmaceuticals M3 (R2). Version step 4 2009.,” 2009. [Online]. Available: https://database.ich.org/sites/default/files/S9_Guideline.pdf</p>
+
+<p>[38] L. M. Weiner, R. Surana, and S. Wang, “Monoclonal antibodies: versatile platforms for cancer immunotherapy,” <em>Nature Reviews Immunology</em>, vol. 10, no. 5, pp. 317–327, 2010.</p>
+
+<p>[39] R. Balocco, S. D. S. G. Koch, R. Thorpe, K. Weisser, and S. Malan, “New INN nomenclature for monoclonal antibodies,” <em>The Lancet</em>, vol. 399, no. 10319, p. 24, 2022.</p>
+
+<p>[40] S. M. Chiavenna, J. P. Jaworski, and A. Vendrell, “State of the art in anti-cancer mAbs.,” <em>J Biomed Sci</em>, vol. 24, no. 1, p. 15, Feb. 2017, doi: 10.1186/s12929-016-0311-y.</p>
+
+</div>
+
+<!--
+
+<div id="related">
+  <h2>Related Topics</h2>
+  <ul class="topics">
+    
+  </ul>
+</div>
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- # MAIN END ---------------------------------------------------------- -->
+
+<!-- FOOT START -------------------------------------------------------- -->
+<div class="sitewidthnav">
+	<div class="footer">
+		<div class="foot-container">
+				<a href="/" class="logo-foot">
+				<img style="margin-bottom:-16px" 
+				src="/images/logo/vaud_ch_logo.png" 
+				alt="Logo image" width="38.5" height="38.5" /></a>
+				<!-- alt="Logo image" width="25" height="38.5" /></a> -->
+					<div class="right-root">
+						<p><a href="https://github.com/vaudbiotech/vaudbiotech.github.io">Maintained</a> by Dylan Lawless. Scientist at <a href="https://people.epfl.ch/dylan.lawless">EPFL</a>
+						for <a href="https://lawlessgenomics.com">LawlessGenomics.com</a>.
+						<a href="https://scholar.google.com/citations?user=RPBxP1wAAAAJ&hl=en&oi=ao">Google scholar</a>.
+						<a href="https://lawlessgenomics.com/resume/">Resume</a>.
+						<!-- <a href='https://lawlessgenomics.com/feed.xml'>RSS feed</a> -->
+						</p>
+					</div>
+		</div>
+	</div>
+</div>
+<!-- FOOT END ---------------------------------------------------------- -->
+
+</div>
+<!-- SITE END ----------------------------------------------------------- -->
+
+
+<!-- Banner on top right corner linking to github
+<a href="https://github.com/mojombo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+-->
+
+<!-- ClickTale Bottom part -->
+<div id="ClickTaleDiv" style="display: none;"></div>
+<script type="text/javascript">
+if(document.location.protocol!='https:')
+  document.write(unescape("%3Cscript%20src='https://s.clicktale.net/WRb.js'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof ClickTale=='function') ClickTale(206,0.3,"www03");
+</script>
+<!-- ClickTale end of Bottom part -->
+
+<!-- Google Analytics -->
+<!--
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6016902-1");
+pageTracker._trackPageview();
+</script>
+-->
+<!-- Google Analytics end -->
+
+</body>
+</html>

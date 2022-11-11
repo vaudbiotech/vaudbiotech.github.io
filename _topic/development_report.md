@@ -13,7 +13,7 @@ subject: development
 {:toc}
 
 # Individual Case Study Report
-
+```
 Dylan Lawless
 
 Hertumig
@@ -43,7 +43,7 @@ Date of review: 2022-10-15
 Hertumig® is a registered trade-mark of VaudBiotech SA.
 
 Copyright 2022
-
+```
 
 # Table of tables
 
